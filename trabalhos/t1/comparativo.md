@@ -3,23 +3,26 @@
 TOP500 & me: Comparativo de Arquiteturas Paralelas
 --------------------------------------------------
 
-Nome: < preencha seu nome aqui >
+Nome: Lucas Ferreira da Silva
 
-| Característica                                            | Computador no TOP500  | Meu computador  |
-| --------------------------------------------------------- | --------------------- | --------------- |
-| Nome/Título                                               |                       |                 |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
-| Classificação de Flynn                                    |                       |                 |
-| Memória: compartilhada, distribuída ou ambas?             |                       |                 |
-| Número total de núcleos de processamento                  |                       |                 |
-| Fabricante e modelo do(s) processador(es)                 |                       |                 |
-| Frequência do(s) processador(es)                          |                       |                 |
-| Memória total                                             |                       |                 |
-| Tipo(s) de interconexão entre os núcleos/processadores    |                       |                 |
-| Desempenho Linpack                                        |                       |                 |
+| Característica                                            | Computador no TOP500       | Meu computador  |
+| --------------------------------------------------------- | -------------------------- | --------------- |
+| Nome/Título                                               |    Discover SCU12 - NASA   |     ASUS K43E   |
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://www.nas.nasa.gov/SC15/assets/images/content/33_Pfaff_B_Tripling_Compute_1_SC15_big.jpg" width="48"> | <img src="https://www.asus.com/media/BR/products/0QXA6BlaKTmYocDA/P_500.jpg" width="48">|
+| Classificação de Flynn                                    |          MIMD              |       MIMD      |
+| Memória: compartilhada, distribuída ou ambas?             |         Ambas              |  Compartilhada  |
+| Número total de núcleos de processamento                  |         17,136             |        2        |
+| Fabricante e modelo do(s) processador(es)                 |  Intel® Xeon® E5-2697v3 14C| Intel® Core™ i5-2410M |
+| Frequência do(s) processador(es)                          |           2.6GHz           |    2.30GHz      |
+| Memória total                                             |        78,336 GB           |      6 GB       |
+| Tipo(s) de interconexão entre os núcleos/processadores    |      Infiniband FDR        |  Quick Path Interconnect (QPI)          |
+| Desempenho Linpack                                        |      548.672 TFlop/s       |        *        |
+
+*O computador congela antes de acabar a execução do benchmark. (3 tentativas de execução)
 
 ### Referências
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- ...
+- Intel. Intel® Math Kernel Library Benchmarks (Intel® MKL Benchmarks). https://software.intel.com/en-us/articles/intel-mkl-benchmarks-suite
+- Top500.org. Discover SCU12 - Rackable Cluster, Xeon E5-2697v3 14C 2.6GHz, Infiniband FDR. https://www.top500.org/system/178530
+- Intel. Processador Intel® Core™ i5-2410M. https://ark.intel.com/pt-br/products/52224/Intel-Core-i5-2410M-Processor-3M-Cache-up-to-2_90-GHz
+- NASA. Tripling the Compute Capacity at the NASA Center for Climate Simulation. https://www.nas.nasa.gov/SC15/demos/demo33.html#prettyPhoto
+- Intel. Intel® QuickPath Interconnect. https://www.intel.com/content/www/us/en/io/quickpath-technology/quickpath-technology-general.html
