@@ -8,7 +8,7 @@ Nome: Lucas Ferreira da Silva
 | Característica                                            | Computador no TOP500       | Meu computador  |
 | --------------------------------------------------------- | -------------------------- | --------------- |
 | Nome/Título                                               |    Discover SCU12 - NASA   |     ASUS K43E   |
-| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://www.nas.nasa.gov/SC15/assets/images/content/33_Pfaff_B_Tripling_Compute_1_SC15_big.jpg" width="48"> | <img src="https://www.asus.com/media/BR/products/0QXA6BlaKTmYocDA/P_500.jpg" width="48">|
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://www.nas.nasa.gov/SC15/assets/images/content/33_Pfaff_B_Tripling_Compute_1_SC15_big.jpg" width="100"> | <img src="https://www.asus.com/media/BR/products/0QXA6BlaKTmYocDA/P_500.jpg" width="100">|
 | Classificação de Flynn                                    |          MIMD              |       MIMD      |
 | Memória: compartilhada, distribuída ou ambas?             |         Ambas              |  Compartilhada  |
 | Número total de núcleos de processamento                  |         17,136             |        2        |
