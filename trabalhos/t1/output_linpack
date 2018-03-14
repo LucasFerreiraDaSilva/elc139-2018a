@@ -1,0 +1,57 @@
+Sample data file lininput_xeon64.
+
+Current date/time: Tue Mar 13 23:39:03 2018
+
+CPU frequency:    2.893 GHz
+Number of CPUs: 1
+Number of cores: 2
+Number of threads: 2
+
+Parameters are set to:
+
+Number of tests: 8
+Number of equations to solve (problem size) : 1000  2000  5000  10000 15000 18000 20000 22000
+Leading dimension of array                  : 1000  2000  5008  10000 15000 18008 20016 22008
+Number of trials to run                     : 4     2     2     2     2     2     2     2    
+Data alignment value (in Kbytes)            : 4     4     4     4     4     4     4     4    
+
+Maximum memory requested that can be used=3873852256, at the size=22000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.077      8.6875   1.029343e-12 3.510325e-02   pass
+1000   1000   4      0.027      24.4763  1.029343e-12 3.510325e-02   pass
+1000   1000   4      0.026      25.7359  1.029343e-12 3.510325e-02   pass
+1000   1000   4      0.028      24.3028  1.029343e-12 3.510325e-02   pass
+2000   2000   4      0.182      29.3850  4.298950e-12 3.739560e-02   pass
+2000   2000   4      0.181      29.5168  4.298950e-12 3.739560e-02   pass
+5000   5008   4      2.454      33.9771  2.581643e-11 3.599893e-02   pass
+5000   5008   4      2.440      34.1755  2.581643e-11 3.599893e-02   pass
+10000  10000  4      18.061     36.9231  9.603002e-11 3.386116e-02   pass
+10000  10000  4      18.183     36.6762  9.603002e-11 3.386116e-02   pass
+15000  15000  4      64.177     35.0661  2.042799e-10 3.217442e-02   pass
+15000  15000  4      67.985     33.1021  2.042799e-10 3.217442e-02   pass
+18000  18008  4      109.663    35.4598  2.894987e-10 3.170367e-02   pass
+18000  18008  4      109.820    35.4094  2.894987e-10 3.170367e-02   pass
+20000  20016  4      150.675    35.4016  4.097986e-10 3.627616e-02   pass
+20000  20016  4      152.694    34.9334  4.097986e-10 3.627616e-02   pass
+22000  22008  4      205.570    34.5364  4.548092e-10 3.331299e-02   pass
+22000  22008  4      207.403    34.2311  4.548092e-10 3.331299e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       20.8006  25.7359 
+2000   2000   4       29.4509  29.5168 
+5000   5008   4       34.0763  34.1755 
+10000  10000  4       36.7996  36.9231 
+15000  15000  4       34.0841  35.0661 
+18000  18008  4       35.4346  35.4598 
+20000  20016  4       35.1675  35.4016 
+22000  22008  4       34.3838  34.5364 
+
+Residual checks PASSED
+
+End of tests
+

@@ -16,9 +16,12 @@ Nome: Lucas Ferreira da Silva
 | Frequência do(s) processador(es)                          |           2.6GHz           |    2.30GHz      |
 | Memória total                                             |        78,336 GB           |      6 GB       |
 | Tipo(s) de interconexão entre os núcleos/processadores    |      Infiniband FDR        |  Quick Path Interconnect (QPI)          |
-| Desempenho Linpack                                        |      548.672 TFlop/s       |        *        |
+| Desempenho Linpack                                        |      548.672 TFlop/s       |  32,5246 GFlops * |
+| Pico de desempenho teórico                                |      712.858 TFlop/s       |  33,3519 GFlops * |
 
-*O computador congela antes de acabar a execução do benchmark. (3 tentativas de execução)
+* Para determinação destes valores utilizou-se uma média dos [valores de saída](output_linpack) da execução do benchmark.
+
+OBS.: Para ser possível a execução do benchmark no computador ASUS K43E, o [arquivo de entrada](lininput_xeon64) para o Linpack teve de ser modificado, sendo reduzidos o número de execuções e tamanho dos testes até o ponto que o computador não mais trava-se ou reiniciasse.
 
 ### Referências
 - Intel. Intel® Math Kernel Library Benchmarks (Intel® MKL Benchmarks). https://software.intel.com/en-us/articles/intel-mkl-benchmarks-suite
