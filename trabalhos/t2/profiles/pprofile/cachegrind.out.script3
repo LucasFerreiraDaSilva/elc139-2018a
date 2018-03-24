@@ -1,0 +1,3630 @@
+version: 1
+creator: pprofile
+event: usphit :us/hit
+events: hits us usphit
+cmd: ['zoneamento_serial.py']
+fl=/usr/lib/python3.6/multiprocessing/process.py
+fn=/usr/lib/python3.6/multiprocessing/process.py
+10 2 16 8
+16 1 9 9
+17 1 10 10
+18 1 9 9
+19 1 9 9
+20 1 33 33
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+20 1 25 25
+26 1 10 10
+27 1 33 33
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=abspath:369
+calls=1 369
+27 1 554 554
+35 1 10 10
+41 1 8 8
+52 1 8 8
+fn=BaseProcess:62
+62 3 87 29
+cfl=/usr/lib/python3.6/multiprocessing/process.py
+cfn=BaseProcess:62
+calls=1 62
+62 1 196 196
+67 1 7 7
+68 1 8 8
+71 1 8 8
+72 1 8 8
+88 1 8 8
+95 1 8 8
+112 1 8 8
+118 1 8 8
+128 1 8 8
+146 1 9 9
+150 1 11 11
+155 1 9 9
+162 1 9 9
+170 1 9 9
+174 1 9 9
+181 1 9 9
+190 1 9 9
+200 1 7 7
+202 1 8 8
+213 1 8 8
+237 1 8 8
+fn=AuthenticationString:285
+285 3 73 24
+cfl=/usr/lib/python3.6/multiprocessing/process.py
+cfn=AuthenticationString:285
+calls=1 285
+285 1 21 21
+286 1 8 8
+fn=_MainProcess:299
+299 3 64 21
+cfl=/usr/lib/python3.6/multiprocessing/process.py
+cfn=_MainProcess:299
+calls=1 299
+299 1 21 21
+301 2 12 6
+fn=__init__:301
+302 1 8 8
+303 1 8 8
+304 1 8 8
+305 1 8 8
+306 1 15 15
+307 1 10 10
+fn=/usr/lib/python3.6/multiprocessing/process.py
+319 1 33 33
+cfl=/usr/lib/python3.6/multiprocessing/process.py
+cfn=__init__:301
+calls=1 301
+319 1 64 64
+320 1 11 11
+321 1 9 9
+322 1 8 8
+328 1 8 8
+330 77 613 7
+331 76 629 8
+332 35 281 8
+335 1 29 29
+cfl=/usr/lib/python3.6/_weakrefset.py
+cfn=__init__:36
+calls=1 36
+335 1 64 64
+fl=/usr/lib/python3.6/os.py
+fn=makedirs:195
+195 13 101 7
+205 13 655 50
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=split:104
+calls=13 104
+205 13 2455 188
+206 13 215 16
+208 13 581 44
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=exists:16
+calls=12 16
+208 12 811 67
+219 13 181 13
+220 13 967 74
+fn=fsencode:794
+794 160 1608 10
+800 160 2909 18
+801 160 2726 17
+802 160 2991 18
+fl=/usr/lib/python3.6/sre_parse.py
+fn=__init__:76
+76 1 4 4
+77 1 8 8
+78 1 8 8
+79 1 8 8
+80 1 9 9
+fn=groups:81
+81 2 8 4
+83 2 16 8
+fn=__init__:111
+111 2 9 4
+112 2 24 12
+113 2 17 8
+114 1 8 8
+115 2 16 8
+116 2 17 8
+fn=__len__:159
+159 3 13 4
+160 3 24 8
+fn=__getitem__:163
+163 6 26 4
+164 6 51 8
+165 1 28 28
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__init__:111
+calls=1 111
+165 1 42 42
+166 5 41 8
+fn=__setitem__:167
+167 1 4 4
+168 1 9 9
+fn=append:171
+171 3 13 4
+172 3 24 8
+fn=getwidth:173
+173 3 16 5
+175 3 27 9
+176 1 9 9
+177 2 18 9
+178 6 54 9
+179 4 35 8
+188 4 34 8
+192 4 34 8
+196 4 34 8
+197 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=getwidth:173
+calls=1 173
+197 1 120 120
+198 1 11 11
+199 1 9 9
+200 3 26 8
+201 2 16 8
+202 2 17 8
+203 1 8 8
+207 1 8 8
+217 1 9 9
+219 2 20 10
+220 2 17 8
+fn=__init__:223
+223 1 4 4
+224 1 10 10
+225 1 9 9
+226 1 8 8
+228 1 8 8
+229 1 8 8
+230 1 8 8
+231 1 28 28
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__next:232
+calls=1 232
+231 1 56 56
+fn=__next:232
+232 17 80 4
+233 17 135 7
+234 17 134 7
+235 17 139 8
+236 1 8 8
+237 1 9 9
+238 1 9 9
+239 16 123 7
+246 16 126 7
+247 16 129 8
+fn=match:248
+248 8 34 4
+249 8 62 7
+250 3 77 25
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__next:232
+calls=3 232
+250 3 155 51
+251 3 28 9
+252 5 39 7
+fn=get:253
+253 13 65 5
+254 13 102 7
+255 13 332 25
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__next:232
+calls=13 232
+255 13 684 52
+256 13 121 9
+fn=tell:285
+285 4 17 4
+286 4 33 8
+fn=_parse_sub:407
+407 1 6 6
+410 1 9 9
+411 1 10 10
+412 1 11 11
+413 1 29 29
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=tell:285
+calls=1 285
+413 1 13 13
+414 1 11 11
+415 1 10 10
+416 1 43 43
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=_parse:470
+calls=1 470
+416 1 4471 4471
+417 1 29 29
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=match:248
+calls=1 248
+417 1 20 20
+418 1 10 10
+420 1 10 10
+421 1 9 9
+fn=_parse:470
+470 1 10 10
+472 1 36 36
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__init__:111
+calls=1 111
+472 1 50 50
+475 1 15 15
+476 1 14 14
+477 1 13 13
+478 1 13 13
+479 1 14 14
+481 1 13 13
+483 5 68 13
+484 5 60 12
+485 1 11 11
+486 4 49 12
+488 4 118 29
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=get:253
+calls=4 253
+488 4 410 102
+490 4 54 13
+501 4 49 12
+505 4 49 12
+508 4 48 12
+509 2 60 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=tell:285
+calls=2 285
+509 2 24 12
+511 2 28 14
+512 2 25 12
+515 2 61 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=match:248
+calls=2 248
+515 2 40 20
+518 2 43 21
+519 2 35 17
+520 6 178 29
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=get:253
+calls=6 253
+520 6 591 98
+521 6 82 13
+524 6 73 12
+525 2 23 11
+526 4 49 12
+529 4 49 12
+530 4 118 29
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=match:248
+calls=4 248
+530 4 316 79
+532 3 94 31
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=get:253
+calls=3 253
+532 3 303 101
+533 3 42 14
+536 3 37 12
+542 3 36 12
+545 3 37 12
+546 3 37 12
+549 3 36 12
+550 3 38 12
+551 3 36 12
+554 3 38 12
+556 1 13 13
+558 1 12 12
+561 2 25 12
+563 2 25 12
+567 2 61 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=append:171
+calls=2 171
+567 2 25 12
+569 2 23 11
+571 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=tell:285
+calls=1 285
+571 1 12 12
+572 1 14 14
+574 1 12 12
+577 1 12 12
+578 1 13 13
+610 1 32 32
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__len__:159
+calls=1 159
+610 1 13 13
+611 1 36 36
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__getitem__:163
+calls=1 163
+611 1 83 83
+614 1 69 69
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__getitem__:163
+calls=1 163
+614 1 20 20
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__len__:159
+calls=2 159
+614 2 25 12
+617 1 33 33
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__getitem__:163
+calls=1 163
+617 1 20 20
+620 1 32 32
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=match:248
+calls=1 248
+620 1 20 20
+623 1 34 34
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__setitem__:167
+calls=1 167
+623 1 13 13
+625 1 11 11
+628 1 12 12
+773 1 12 12
+776 1 12 12
+777 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=append:171
+calls=1 171
+777 1 12 12
+782 1 11 11
+fn=fix_flags:828
+828 1 4 4
+830 1 8 8
+831 1 8 8
+833 1 8 8
+834 1 12 12
+842 1 8 8
+fn=parse:844
+844 1 5 5
+847 1 32 32
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__init__:223
+calls=1 223
+847 1 142 142
+849 1 10 10
+850 1 28 28
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__init__:76
+calls=1 76
+850 1 40 40
+851 1 10 10
+852 1 8 8
+854 1 8 8
+855 1 31 31
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=_parse_sub:407
+calls=1 407
+855 1 4697 4697
+865 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=fix_flags:828
+calls=1 828
+865 1 51 51
+867 1 10 10
+871 1 8 8
+874 1 8 8
+fl=/usr/lib/python3/dist-packages/pkg_resources/_vendor/six.py
+fn=find_module:184
+184 1 4 4
+185 1 22 22
+187 1 9 9
+fl=/usr/lib/python3.6/pickle.py
+fn=/usr/lib/python3.6/pickle.py
+24 2 16 8
+26 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+26 1 26 26
+27 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+27 1 24 24
+28 1 32 32
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+28 1 24 24
+29 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+29 1 24 24
+30 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+30 1 24 24
+31 1 12 12
+32 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+32 1 24 24
+33 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+33 1 24 24
+34 1 10 10
+35 1 9 9
+36 1 11 11
+37 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+37 1 14031 14031
+39 1 10 10
+40 1 8 8
+43 1 8 8
+46 1 8 8
+47 1 7 7
+48 1 7 7
+49 1 7 7
+50 1 7 7
+51 1 7 7
+52 1 9 9
+53 1 8 8
+57 1 8 8
+62 1 7 7
+fn=PickleError:64
+64 3 73 24
+cfl=/usr/lib/python3.6/pickle.py
+cfn=PickleError:64
+calls=1 64
+64 1 28 28
+65 1 7 7
+66 1 8 8
+fn=PicklingError:68
+68 3 68 22
+cfl=/usr/lib/python3.6/pickle.py
+cfn=PicklingError:68
+calls=1 68
+68 1 28 28
+72 1 7 7
+73 1 8 8
+fn=UnpicklingError:75
+75 3 67 22
+cfl=/usr/lib/python3.6/pickle.py
+cfn=UnpicklingError:75
+calls=1 75
+75 1 28 28
+83 1 7 7
+84 1 7 7
+fn=_Stop:88
+88 3 65 21
+cfl=/usr/lib/python3.6/pickle.py
+cfn=_Stop:88
+calls=1 88
+88 1 20 20
+89 1 7 7
+fn=/usr/lib/python3.6/pickle.py
+93 1 10 10
+94 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+94 1 12411 12411
+95 1 10 10
+96 1 9 9
+102 1 8 8
+103 1 8 8
+104 1 9 9
+105 1 8 8
+106 1 8 8
+107 1 8 8
+108 1 8 8
+109 1 8 8
+110 1 9 9
+111 1 8 8
+112 1 8 8
+113 1 8 8
+114 1 7 7
+115 1 8 8
+116 1 8 8
+117 1 8 8
+118 1 8 8
+119 1 7 7
+120 1 8 8
+121 1 8 8
+122 1 7 7
+123 1 8 8
+124 1 8 8
+125 1 8 8
+126 1 8 8
+127 1 8 8
+128 1 8 8
+129 1 8 8
+130 1 8 8
+131 1 8 8
+132 1 8 8
+133 1 8 8
+134 1 8 8
+135 1 8 8
+136 1 7 7
+137 1 8 8
+138 1 8 8
+139 1 7 7
+140 1 8 8
+141 1 8 8
+142 1 7 7
+144 1 8 8
+145 1 8 8
+149 1 7 7
+150 1 8 8
+151 1 9 9
+152 1 8 8
+153 1 8 8
+154 1 7 7
+155 1 8 8
+156 1 7 7
+157 1 10 10
+158 1 8 8
+159 1 11 11
+160 1 9 9
+162 1 8 8
+166 1 8 8
+167 1 8 8
+170 1 8 8
+171 1 8 8
+172 1 8 8
+173 1 8 8
+174 1 8 8
+175 1 8 8
+176 1 10 10
+177 1 8 8
+178 1 8 8
+179 1 8 8
+fn=<listcomp>:181
+181 105 3108 29
+cfl=/usr/lib/python3.6/pickle.py
+cfn=<listcomp>:181
+calls=1 181
+181 1 21823 21823
+cfl=/usr/lib/python3.6/re.py
+cfn=match:169
+calls=102 169
+181 102 18773 184
+fn=_Framer:184
+184 3 70 23
+cfl=/usr/lib/python3.6/pickle.py
+cfn=_Framer:184
+calls=1 184
+184 1 62 62
+186 1 7 7
+188 1 8 8
+192 1 8 8
+195 1 8 8
+200 1 8 8
+213 1 8 8
+fn=_Unframer:220
+220 3 65 21
+cfl=/usr/lib/python3.6/pickle.py
+cfn=_Unframer:220
+calls=1 220
+220 1 46 46
+222 1 8 8
+227 1 8 8
+240 1 8 8
+253 1 8 8
+fn=/usr/lib/python3.6/pickle.py
+262 1 11 11
+275 1 8 8
+292 1 11 11
+322 1 9 9
+fn=_Pickler:345
+345 3 92 30
+cfl=/usr/lib/python3.6/pickle.py
+cfn=_Pickler:345
+calls=1 345
+345 1 380 380
+347 1 8 8
+388 1 8 8
+398 1 8 8
+413 1 8 8
+436 1 8 8
+448 1 8 8
+457 1 8 8
+523 1 7 7
+527 1 8 8
+540 1 8 8
+639 1 8 8
+641 1 8 8
+643 1 8 8
+645 1 8 8
+650 1 8 8
+652 1 8 8
+678 1 8 8
+680 1 8 8
+685 1 8 8
+687 1 8 8
+703 1 8 8
+705 1 8 8
+721 1 8 8
+723 1 8 8
+772 1 8 8
+774 1 8 8
+783 1 17 17
+785 1 15 15
+787 1 10 10
+814 1 16 16
+823 1 8 8
+824 1 8 8
+827 1 8 8
+858 1 8 8
+880 1 8 8
+882 1 8 8
+903 1 8 8
+905 1 8 8
+971 1 8 8
+980 1 8 8
+981 1 8 8
+fn=_Unpickler:986
+986 3 112 37
+cfl=/usr/lib/python3.6/pickle.py
+cfn=_Unpickler:986
+calls=1 986
+986 1 1194 1194
+988 1 7 7
+989 1 8 8
+1025 1 11 11
+1055 1 8 8
+1061 1 8 8
+1064 1 8 8
+1066 1 8 8
+1071 1 8 8
+1073 1 8 8
+1078 1 8 8
+1080 1 8 8
+1087 1 8 8
+1089 1 8 8
+1092 1 8 8
+1094 1 8 8
+1096 1 8 8
+1098 1 8 8
+1100 1 8 8
+1102 1 8 8
+1104 1 8 8
+1106 1 8 8
+1115 1 8 8
+1117 1 8 8
+1119 1 8 8
+1121 1 8 8
+1123 1 8 8
+1125 1 8 8
+1127 1 9 9
+1129 1 8 8
+1134 1 8 8
+1136 1 8 8
+1140 1 8 8
+1142 1 8 8
+1149 1 8 8
+1151 1 9 9
+1153 1 8 8
+1155 1 8 8
+1157 1 8 8
+1159 1 8 8
+1168 1 8 8
+1176 1 8 8
+1178 1 8 8
+1185 1 8 8
+1187 1 8 8
+1193 1 8 8
+1195 1 8 8
+1197 1 8 8
+1199 1 8 8
+1205 1 8 8
+1207 1 8 8
+1213 1 9 9
+1215 1 8 8
+1221 1 8 8
+1223 1 8 8
+1227 1 8 8
+1229 1 9 9
+1232 1 8 8
+1234 1 8 8
+1237 1 8 8
+1239 1 8 8
+1242 1 8 8
+1244 1 8 8
+1246 1 8 8
+1248 1 8 8
+1250 1 8 8
+1252 1 8 8
+1254 1 8 8
+1256 1 8 8
+1258 1 8 8
+1260 1 8 8
+1262 1 8 8
+1264 1 8 8
+1266 1 8 8
+1268 1 8 8
+1270 1 8 8
+1272 1 9 9
+1275 1 9 9
+1277 1 8 8
+1280 1 8 8
+1282 1 8 8
+1287 1 8 8
+1294 1 8 8
+1306 1 8 8
+1311 1 8 8
+1313 1 8 8
+1318 1 8 8
+1320 1 8 8
+1325 1 8 8
+1327 1 8 8
+1333 1 8 8
+1335 1 8 8
+1340 1 8 8
+1342 1 7 7
+1348 1 9 9
+1350 1 8 8
+1353 1 8 8
+1355 1 8 8
+1358 1 8 8
+1360 1 8 8
+1363 1 8 8
+1365 1 8 8
+1381 1 8 8
+1394 1 8 8
+1399 1 8 8
+1401 1 8 8
+1406 1 8 8
+1408 1 8 8
+1410 1 8 8
+1412 1 8 8
+1414 1 8 8
+1416 1 8 8
+1419 1 8 8
+1421 1 8 8
+1424 1 8 8
+1426 1 8 8
+1429 1 8 8
+1431 1 8 8
+1436 1 8 8
+1438 1 8 8
+1443 1 8 8
+1445 1 8 8
+1450 1 8 8
+1452 1 8 8
+1455 1 8 8
+1457 1 8 8
+1462 1 8 8
+1464 1 8 8
+1473 1 8 8
+1475 1 8 8
+1481 1 8 8
+1483 1 8 8
+1488 1 8 8
+1490 1 8 8
+1499 1 8 8
+1501 1 8 8
+1523 1 8 8
+1525 1 8 8
+1529 1 8 8
+1531 1 8 8
+1534 1 8 8
+fn=/usr/lib/python3.6/pickle.py
+1539 1 12 12
+1542 1 9 9
+1549 1 9 9
+1553 1 8 8
+1561 1 8 8
+1562 1 53 53
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+1562 1 25 25
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+1562 1 2236 2236
+1578 1 10 10
+1582 1 8 8
+fl=/usr/lib/python3.6/enum.py
+fn=__call__:265
+265 4 19 4
+290 4 36 9
+291 4 110 27
+cfl=/usr/lib/python3.6/enum.py
+cfn=__new__:515
+calls=4 515
+291 4 157 39
+fn=__new__:515
+515 4 20 5
+519 4 34 8
+524 4 33 8
+525 4 34 8
+526 4 35 8
+fn=__and__:801
+801 2 8 4
+802 2 22 11
+804 2 101 50
+cfl=/usr/lib/python3.6/enum.py
+cfn=__call__:265
+calls=4 265
+804 4 324 81
+fl=/usr/lib/python3.6/_weakrefset.py
+fn=__init__:36
+36 4 19 4
+37 4 40 10
+38 4 36 9
+45 4 33 8
+47 4 32 8
+48 4 35 8
+49 4 32 8
+fl=<frozen importlib._bootstrap_external>
+fn=_relax_case:41
+41 29 120 4
+43 29 218 7
+fn=_r_long:52
+52 16 67 4
+54 16 144 9
+fn=_path_join:57
+57 150 653 4
+59 766 5542 7
+fn=<listcomp>:59
+60 466 6682 14
+cfl=<frozen importlib._bootstrap_external>
+cfn=<listcomp>:59
+calls=150 59
+60 150 7101 47
+fn=_path_split:63
+63 16 77 4
+65 16 140 8
+66 16 149 9
+67 16 141 8
+fn=_path_stat:75
+75 51 214 4
+82 51 699 13
+fn=_path_is_mode_type:85
+85 14 63 4
+87 14 111 7
+88 14 380 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat:75
+calls=14 75
+88 14 255 18
+89 3 31 10
+90 3 27 9
+91 11 113 10
+fn=_path_isfile:94
+94 12 51 4
+96 12 313 26
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type:85
+calls=12 85
+96 12 838 69
+fn=_path_isdir:99
+99 2 9 4
+101 2 15 7
+103 2 56 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type:85
+calls=2 85
+103 2 144 72
+fn=cache_from_source:263
+263 16 92 5
+281 16 144 9
+288 16 157 9
+289 16 443 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_split:63
+calls=16 63
+289 16 508 31
+290 16 185 11
+291 16 151 9
+292 16 139 8
+294 16 151 9
+295 16 138 8
+296 16 139 8
+297 16 135 8
+300 16 139 8
+301 16 132 8
+305 16 456 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join:57
+calls=16 57
+305 16 1603 100
+fn=_get_cached:361
+361 9 38 4
+362 9 83 9
+363 8 63 7
+364 8 234 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source:263
+calls=8 263
+364 8 2377 297
+367 1 9 9
+370 1 8 8
+fn=_check_name_wrapper:393
+393 8 37 4
+394 8 65 8
+396 8 65 8
+399 8 216 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_filename:825
+calls=8 825
+399 8 98 12
+fn=_validate_bytecode_header:430
+430 8 46 5
+441 8 75 9
+442 8 75 9
+443 8 82 10
+447 8 73 9
+448 8 81 10
+449 8 81 10
+450 8 86 10
+451 8 76 9
+452 8 73 9
+456 8 73 9
+460 8 71 8
+464 8 75 9
+465 8 69 8
+466 8 77 9
+470 8 216 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_r_long:52
+calls=8 52
+470 8 110 13
+474 8 82 10
+475 8 73 9
+479 8 211 26
+cfl=<frozen importlib._bootstrap_external>
+cfn=_r_long:52
+calls=8 52
+479 8 101 12
+482 8 98 12
+fn=_compile_bytecode:485
+485 8 38 4
+487 8 884 110
+488 8 182 22
+489 8 222 27
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=8 222
+489 8 104 13
+490 8 79 9
+491 8 74 9
+492 8 67 8
+fn=spec_from_file_location:524
+524 9 47 5
+536 9 80 8
+548 9 87 9
+556 9 262 29
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:369
+calls=9 369
+556 9 566 62
+557 9 97 10
+560 9 81 9
+570 9 79 8
+581 9 79 8
+582 9 82 9
+587 9 79 8
+fn=create_module:669
+669 16 96 6
+fn=exec_module:672
+672 8 36 4
+674 8 242 30
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_code:743
+calls=8 743
+674 8 10051 1256
+675 8 79 9
+678 8 240 30
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=8 211
+678 8 323592 40449
+fn=get_code:743
+743 8 45 5
+750 8 237 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_check_name_wrapper:393
+calls=8 393
+750 8 482 60
+751 8 86 10
+752 8 73 9
+753 8 243 30
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source:263
+calls=8 263
+753 8 2343 292
+757 8 84 10
+758 8 245 30
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_stats:840
+calls=8 840
+758 8 478 59
+762 8 104 13
+763 8 73 9
+764 8 240 30
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_data:830
+calls=8 830
+764 8 391 48
+768 8 84 10
+769 8 70 8
+770 8 69 8
+771 8 237 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_validate_bytecode_header:430
+calls=8 430
+771 8 2014 251
+775 8 85 10
+776 8 216 27
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=8 222
+776 8 102 12
+777 8 80 10
+778 8 78 9
+779 8 225 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_compile_bytecode:485
+calls=8 485
+779 8 1654 206
+fn=__init__:800
+800 8 34 4
+803 8 66 8
+804 8 66 8
+fn=get_filename:825
+825 8 34 4
+828 8 63 7
+fn=get_data:830
+830 8 36 4
+832 8 155 19
+833 8 199 24
+fn=path_stats:840
+840 8 36 4
+842 8 216 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat:75
+calls=8 75
+842 8 140 17
+843 8 84 10
+fn=__init__:908
+908 1 4 4
+909 1 9 9
+910 1 9 9
+fn=create_module:919
+919 1 4 4
+921 1 8 8
+922 1 34 34
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=1 211
+922 1 183 183
+923 1 10 10
+924 1 28 28
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=1 222
+924 1 13 13
+925 1 10 10
+fn=exec_module:927
+927 1 4 4
+929 1 27 27
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=1 211
+929 1 12 12
+930 1 10 10
+931 1 26 26
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=1 222
+931 1 12 12
+fn=_path_hooks:1067
+1067 2 10 5
+1070 2 17 8
+1072 4 34 8
+1073 4 32 8
+1074 4 95 23
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_hook_for_FileFinder:1322
+calls=2 1322
+1074 2 1113 556
+1075 2 19 9
+1076 2 17 8
+fn=_path_importer_cache:1080
+1080 37 171 4
+1088 37 294 7
+1089 7 56 8
+1090 7 89 12
+1095 37 298 8
+1096 37 311 8
+1097 2 17 8
+1098 2 59 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_hooks:1067
+calls=2 1067
+1098 2 1340 670
+1099 2 23 11
+1100 37 293 7
+fn=_legacy_get_spec:1102
+1102 1 4 4
+1106 1 9 9
+1107 1 16 16
+1111 1 9 9
+1113 1 29 29
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:369
+calls=1 369
+1113 1 62 62
+1114 1 10 10
+1115 1 8 8
+fn=_get_spec:1117
+1117 10 53 5
+1122 10 87 8
+1123 38 334 8
+1124 37 331 8
+1126 37 971 26
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_importer_cache:1080
+calls=37 1080
+1126 37 2957 79
+1127 37 371 10
+1128 30 273 9
+1129 29 847 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1233
+calls=29 1233
+1129 29 33032 1139
+1131 1 29 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_legacy_get_spec:1102
+calls=1 1102
+1131 1 151 151
+1132 30 307 10
+1133 20 168 8
+1134 10 85 8
+1135 9 76 8
+1136 1 8 8
+1137 1 8 8
+1143 1 9 9
+1145 1 28 28
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:369
+calls=1 369
+1145 1 61 61
+1146 1 10 10
+1147 1 8 8
+fn=find_spec:1149
+1149 10 47 4
+1155 10 86 8
+1156 7 61 8
+1157 10 275 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1117
+calls=10 1117
+1157 10 40214 4021
+1158 10 100 10
+1160 10 84 8
+1161 1 8 8
+1162 1 8 8
+1169 1 8 8
+1171 9 74 8
+fn=__init__:1196
+1196 2 11 5
+1200 2 19 9
+1201 8 79 9
+fn=<genexpr>:1202
+1202 38 555 14
+cfl=<frozen importlib._bootstrap_external>
+cfn=<genexpr>:1202
+calls=16 1202
+1202 16 208 13
+fn=__init__:1196
+1203 2 17 8
+1205 2 17 8
+1206 2 17 8
+1207 2 18 9
+1208 2 18 9
+fn=_get_spec:1228
+1228 9 43 4
+1229 9 242 26
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__:908
+calls=1 908
+1229 1 23 23
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__:800
+calls=8 800
+1229 8 167 20
+1230 9 88 9
+1231 9 248 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=spec_from_file_location:524
+calls=9 524
+1231 9 1543 171
+fn=find_spec:1233
+1233 29 183 6
+1238 29 281 9
+1239 29 294 10
+1240 29 277 9
+1241 29 850 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat:75
+calls=29 75
+1241 29 518 17
+1244 29 333 11
+1245 2 62 31
+cfl=<frozen importlib._bootstrap_external>
+cfn=_fill_cache:1281
+calls=2 1281
+1245 2 217 108
+1246 2 22 11
+1248 29 788 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_relax_case:41
+calls=29 41
+1248 29 339 11
+1252 29 326 11
+1253 29 268 9
+1255 29 275 9
+1256 1 30 30
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join:57
+calls=1 57
+1256 1 84 84
+1257 4 42 10
+1258 4 36 9
+1259 4 113 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join:57
+calls=4 57
+1259 4 333 83
+1260 4 118 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isfile:94
+calls=4 94
+1260 4 433 108
+1261 1 32 32
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1228
+calls=1 1228
+1261 1 278 278
+1267 149 1374 9
+1268 129 3716 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join:57
+calls=129 57
+1268 129 10856 84
+1269 129 3699 28
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=129 222
+1269 129 1662 12
+1270 129 1433 11
+1271 8 226 28
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isfile:94
+calls=8 94
+1271 8 770 96
+1272 8 85 10
+1273 8 233 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1228
+calls=8 1228
+1273 8 2077 259
+1274 20 176 8
+1279 20 174 8
+fn=_fill_cache:1281
+1281 2 11 5
+1283 2 18 9
+1284 2 18 9
+1285 2 94 47
+1292 2 27 13
+1293 2 25 12
+1309 2 21 10
+fn=path_hook_for_FileFinder:1322
+1322 2 9 4
+1324 2 58 29
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isdir:99
+calls=2 99
+1324 2 225 112
+1326 2 64 32
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__:1196
+calls=2 1196
+1326 2 755 377
+fl=/usr/lib/python3.6/_compat_pickle.py
+fn=/usr/lib/python3.6/_compat_pickle.py
+9 2 17 8
+10 1 8 8
+11 1 8 8
+12 1 8 8
+13 1 7 7
+14 1 8 8
+15 1 8 8
+16 1 7 7
+17 1 7 7
+18 1 8 8
+19 1 7 7
+20 1 8 8
+21 1 8 8
+22 1 7 7
+23 1 7 7
+24 1 8 8
+25 1 7 7
+26 1 7 7
+27 1 8 8
+28 1 7 7
+29 1 7 7
+30 1 7 7
+31 1 9 9
+32 1 8 8
+33 1 8 8
+34 1 7 7
+35 1 8 8
+36 1 8 8
+37 1 7 7
+38 1 7 7
+39 1 7 7
+40 1 8 8
+41 1 7 7
+42 1 7 7
+43 1 8 8
+44 1 7 7
+45 1 7 7
+46 1 8 8
+47 1 7 7
+48 1 7 7
+49 1 7 7
+50 1 10 10
+58 1 8 8
+59 1 8 8
+60 1 8 8
+61 1 7 7
+62 1 7 7
+63 1 8 8
+64 1 7 7
+65 1 7 7
+66 1 8 8
+67 1 8 8
+68 1 7 7
+69 1 7 7
+70 1 8 8
+71 1 7 7
+72 1 7 7
+73 1 7 7
+74 1 8 8
+75 1 7 7
+76 1 7 7
+77 1 7 7
+78 1 8 8
+79 1 7 7
+80 1 7 7
+81 1 8 8
+82 1 7 7
+83 1 7 7
+84 1 8 8
+85 1 7 7
+86 1 7 7
+87 1 7 7
+88 1 8 8
+89 1 7 7
+90 1 10 10
+141 1 9 9
+144 1 17 17
+145 1 12 12
+146 1 9 9
+147 1 9 9
+151 48 387 8
+152 47 401 8
+158 1 7 7
+161 5 51 10
+162 4 36 9
+fn=<genexpr>:165
+165 87 1312 15
+cfl=/usr/lib/python3.6/_compat_pickle.py
+cfn=<genexpr>:165
+calls=43 165
+165 43 542 12
+fn=/usr/lib/python3.6/_compat_pickle.py
+166 1 10 10
+fn=<genexpr>:167
+167 171 2480 14
+cfl=/usr/lib/python3.6/_compat_pickle.py
+cfn=<genexpr>:167
+calls=85 167
+167 85 1026 12
+fn=/usr/lib/python3.6/_compat_pickle.py
+168 1 10 10
+172 1 8 8
+173 1 8 8
+174 1 7 7
+175 1 7 7
+176 1 8 8
+177 1 7 7
+178 1 8 8
+179 1 7 7
+181 1 7 7
+182 1 7 7
+183 1 8 8
+184 1 8 8
+185 1 7 7
+186 1 11 11
+189 1 9 9
+190 1 8 8
+191 1 8 8
+192 1 7 7
+193 1 8 8
+194 1 11 11
+197 1 8 8
+198 1 8 8
+199 1 8 8
+200 1 8 8
+201 1 11 11
+204 1 8 8
+205 1 8 8
+206 1 8 8
+207 1 8 8
+208 1 8 8
+209 1 8 8
+210 1 8 8
+211 1 8 8
+212 1 8 8
+213 1 8 8
+214 1 8 8
+215 1 8 8
+216 1 8 8
+217 1 8 8
+218 1 7 7
+219 1 8 8
+220 1 7 7
+221 1 8 8
+222 1 8 8
+223 1 11 11
+240 1 9 9
+243 15 119 7
+244 14 113 8
+247 1 7 7
+250 2 17 8
+251 1 8 8
+fl=/usr/lib/python3.6/re.py
+fn=match:169
+169 102 450 4
+172 102 2752 26
+cfl=/usr/lib/python3.6/re.py
+cfn=_compile:286
+calls=102 286
+172 102 15570 152
+fn=_compile:286
+286 102 473 4
+288 102 816 8
+289 102 889 8
+290 101 802 7
+291 101 796 7
+292 1 10 10
+293 1 8 8
+294 1 10 10
+299 1 29 29
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=isstring:539
+calls=1 539
+299 1 18 18
+301 1 34 34
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=compile:557
+calls=1 557
+301 1 11123 11123
+302 1 33 33
+cfl=/usr/lib/python3.6/enum.py
+cfn=__and__:801
+calls=1 801
+302 1 241 241
+303 1 10 10
+305 1 29 29
+cfl=/usr/lib/python3.6/enum.py
+cfn=__and__:801
+calls=1 801
+305 1 215 215
+310 1 10 10
+311 1 9 9
+312 1 8 8
+fl=/usr/lib/python3.6/sre_compile.py
+fn=_compile:64
+64 2 15 7
+66 2 23 11
+67 2 22 11
+68 2 23 11
+69 2 22 11
+70 2 22 11
+71 2 24 12
+72 2 22 11
+78 2 21 10
+79 6 102 17
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__getitem__:163
+calls=2 163
+79 2 42 21
+80 4 44 11
+99 4 41 10
+100 2 21 10
+105 2 20 10
+106 2 20 10
+107 2 20 10
+108 2 59 29
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_compile_charset:223
+calls=2 223
+108 2 2582 1291
+109 2 24 12
+110 2 20 10
+115 2 20 10
+116 1 10 10
+118 1 32 32
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_simple:388
+calls=1 388
+118 1 108 108
+119 1 12 12
+120 1 10 10
+123 1 10 10
+124 1 10 10
+125 1 10 10
+126 1 38 38
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_compile:64
+calls=1 64
+126 1 1929 1929
+127 1 12 12
+128 1 10 10
+140 1 10 10
+150 1 10 10
+152 1 10 10
+165 1 10 10
+171 1 10 10
+172 1 10 10
+173 1 10 10
+175 1 10 10
+177 1 10 10
+178 1 11 11
+179 1 10 10
+fn=_compile_charset:223
+223 3 17 5
+225 3 27 9
+226 6 121 20
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_optimize_charset:250
+calls=3 250
+226 3 3225 1075
+227 3 31 10
+228 3 25 8
+230 3 24 8
+232 3 25 8
+233 2 16 8
+234 2 16 8
+235 1 8 8
+236 1 9 9
+248 3 25 8
+fn=_optimize_charset:250
+250 3 24 8
+252 3 32 10
+253 3 32 10
+254 3 35 11
+255 8 81 10
+256 5 49 9
+257 5 49 9
+258 5 49 9
+259 1 9 9
+266 1 10 10
+267 4 40 10
+268 4 44 11
+269 4 40 10
+271 4 39 9
+278 92 887 9
+279 88 852 9
+296 5 48 9
+299 3 30 10
+300 3 30 10
+301 3 29 9
+302 7 75 10
+303 7 68 9
+304 2 18 9
+305 5 48 9
+306 1 9 9
+307 1 14 14
+308 4 40 10
+309 4 38 9
+312 4 39 9
+313 3 29 9
+315 4 39 9
+316 2 19 9
+319 2 20 10
+320 2 19 9
+322 2 20 10
+325 2 19 9
+328 1 9 9
+329 1 32 32
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_mk_bitmap:376
+calls=1 376
+329 1 210 210
+330 1 12 12
+331 1 10 10
+332 1 9 9
+fn=_mk_bitmap:376
+376 1 5 5
+377 1 12 12
+378 11 88 8
+fn=<listcomp>:378
+379 9 104 11
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=<listcomp>:378
+calls=1 378
+379 1 151 151
+fn=_simple:388
+388 1 4 4
+390 1 28 28
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=getwidth:173
+calls=1 173
+390 1 23 23
+391 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=__getitem__:163
+calls=1 163
+391 1 21 21
+fn=_get_literal_prefix:414
+414 1 6 6
+416 1 10 10
+417 1 10 10
+418 1 10 10
+419 1 10 10
+420 1 10 10
+422 1 12 12
+436 1 9 9
+439 1 9 9
+fn=_get_charset_prefix:441
+441 1 5 5
+442 1 9 9
+443 1 9 9
+444 1 9 9
+445 1 9 9
+446 1 9 9
+465 1 9 9
+478 1 9 9
+479 1 9 9
+480 1 9 9
+fn=_compile_info:482
+482 1 6 6
+486 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=getwidth:173
+calls=1 173
+486 1 419 419
+487 1 12 12
+489 1 10 10
+493 1 9 9
+494 1 9 9
+495 1 9 9
+496 1 12 12
+498 1 31 31
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_get_literal_prefix:414
+calls=1 414
+498 1 91 91
+500 1 11 11
+501 1 30 30
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_get_charset_prefix:441
+calls=1 441
+501 1 92 92
+507 1 10 10
+508 1 10 10
+509 1 9 9
+511 1 8 8
+512 1 9 9
+516 1 9 9
+517 1 8 8
+518 1 8 8
+520 1 8 8
+521 1 8 8
+525 1 18 18
+527 1 15 15
+535 1 10 10
+536 1 39 39
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_compile_charset:223
+calls=1 223
+536 1 993 993
+537 1 10 10
+fn=isstring:539
+539 2 8 4
+540 2 22 11
+fn=_code:542
+542 1 4 4
+544 1 75 75
+545 1 10 10
+548 1 30 30
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_compile_info:482
+calls=1 482
+548 1 1956 1956
+551 1 33 33
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_compile:64
+calls=1 64
+551 1 3609 3609
+553 1 10 10
+555 1 8 8
+fn=compile:557
+557 1 5 5
+560 1 27 27
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=isstring:539
+calls=1 539
+560 1 12 12
+561 1 10 10
+562 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=parse:844
+calls=1 844
+562 1 5127 5127
+566 1 30 30
+cfl=/usr/lib/python3.6/sre_compile.py
+cfn=_code:542
+calls=1 542
+566 1 5739 5739
+571 1 10 10
+572 1 30 30
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=groups:81
+calls=1 81
+572 1 13 13
+573 1 11 11
+576 1 9 9
+577 1 9 9
+578 1 26 26
+cfl=/usr/lib/python3.6/sre_parse.py
+cfn=groups:81
+calls=1 81
+578 1 12 12
+579 1 14 14
+fl=/usr/lib/python3.6/_bootlocale.py
+fn=getpreferredencoding:23
+23 323 3130 9
+24 323 5035 15
+25 323 6022 18
+26 323 3934 12
+34 323 3631 11
+fl=/usr/lib/python3.6/codecs.py
+fn=__init__:185
+185 162 1610 9
+193 162 3589 22
+194 162 2692 16
+259 161 709 4
+267 161 1423 8
+308 161 790 4
+309 161 4451 27
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:259
+calls=161 259
+309 161 2132 13
+311 161 1615 10
+fn=decode:318
+318 322 2005 6
+320 322 3132 9
+321 322 3673 11
+323 322 3085 9
+324 322 2753 8
+fl=/usr/lib/python3.6/multiprocessing/context.py
+fn=/usr/lib/python3.6/multiprocessing/context.py
+1 2 17 8
+2 1 10 10
+3 1 9 9
+5 1 70 70
+cfl=<frozen importlib._bootstrap>
+cfn=parent:416
+calls=1 416
+5 1 22 22
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module:194
+calls=1 194
+5 1 295 295
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+5 1 9021 9021
+6 1 72 72
+cfl=<frozen importlib._bootstrap>
+cfn=parent:416
+calls=1 416
+6 1 21 21
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module:194
+calls=1 194
+6 1 291 291
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+6 1 73574 73574
+8 1 10 10
+fn=ProcessError:14
+14 3 66 22
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=ProcessError:14
+calls=1 14
+14 1 20 20
+15 1 7 7
+fn=BufferTooShort:17
+17 3 67 22
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=BufferTooShort:17
+calls=1 17
+17 1 20 20
+18 1 7 7
+fn=TimeoutError:20
+20 3 66 22
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=TimeoutError:20
+calls=1 20
+20 1 21 21
+21 1 8 8
+fn=AuthenticationError:23
+23 3 62 20
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=AuthenticationError:23
+calls=1 23
+23 1 20 20
+24 1 8 8
+fn=BaseContext:30
+30 3 87 29
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=BaseContext:30
+calls=1 30
+30 1 335 335
+32 1 7 7
+33 1 8 8
+34 1 8 8
+35 1 8 8
+37 1 9 9
+38 1 9 9
+40 1 8 8
+48 1 9 9
+59 1 9 9
+64 1 8 8
+69 1 8 8
+74 1 8 8
+79 1 8 8
+84 1 8 8
+89 1 8 8
+94 1 8 8
+99 1 8 8
+104 1 8 8
+109 1 8 8
+114 1 8 8
+115 1 9 9
+121 1 8 8
+126 1 8 8
+131 1 9 9
+137 1 9 9
+143 1 9 9
+151 1 8 8
+158 1 8 8
+163 1 9 9
+171 1 8 8
+179 1 8 8
+186 1 8 8
+196 1 8 8
+199 1 8 8
+202 2 13 6
+fn=reducer:202
+206 1 8 8
+fn=BaseContext:30
+208 1 10 10
+212 1 8 8
+fn=Process:219
+219 3 64 21
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=Process:219
+calls=1 219
+219 1 29 29
+220 1 8 8
+221 1 8 8
+fn=DefaultContext:225
+225 3 70 23
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=DefaultContext:225
+calls=1 225
+225 1 66 66
+226 1 8 8
+228 2 13 6
+fn=__init__:228
+229 1 9 9
+230 1 9 9
+fn=DefaultContext:225
+232 1 8 8
+240 1 9 9
+248 1 8 8
+255 1 8 8
+fn=<genexpr>:264
+264 102 1348 13
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=<genexpr>:264
+calls=37 264
+264 37 671 18
+fn=/usr/lib/python3.6/multiprocessing/context.py
+270 1 10 10
+fn=ForkProcess:272
+272 3 62 20
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=ForkProcess:272
+calls=1 272
+272 1 29 29
+273 1 7 7
+274 1 9 9
+fn=SpawnProcess:279
+279 3 62 20
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=SpawnProcess:279
+calls=1 279
+279 1 29 29
+280 1 7 7
+281 1 8 8
+fn=ForkServerProcess:286
+286 3 59 19
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=ForkServerProcess:286
+calls=1 286
+286 1 29 29
+287 1 7 7
+288 1 8 8
+fn=ForkContext:293
+293 3 63 21
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=ForkContext:293
+calls=1 293
+293 1 28 28
+294 1 7 7
+295 1 8 8
+fn=SpawnContext:297
+297 3 59 19
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=SpawnContext:297
+calls=1 297
+297 1 28 28
+298 1 7 7
+299 1 8 8
+fn=ForkServerContext:301
+301 3 62 20
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=ForkServerContext:301
+calls=1 301
+301 1 37 37
+302 1 7 7
+303 1 8 8
+304 1 8 8
+fn=/usr/lib/python3.6/multiprocessing/context.py
+309 1 11 11
+310 1 8 8
+311 1 9 9
+313 1 30 30
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=__init__:228
+calls=1 228
+313 1 22 22
+337 1 10 10
+344 1 14 14
+346 1 9 9
+349 1 8 8
+352 1 8 8
+fl=zoneamento_serial.py
+fn=zoneamento_serial.py
+1 2 68 34
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+1 1 104592 104592
+2 1 32 32
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+2 1 26 26
+4 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+4 1 16632 16632
+5 1 11 11
+6 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+6 1 26 26
+7 1 10 10
+8 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+8 1 10313 10313
+25 1 10 10
+26 1 8 8
+27 1 8 8
+28 1 8 8
+30 1 8 8
+31 1 8 8
+32 1 8 8
+37 161 897 5
+fn=phenogladAlert:37
+39 160 1419 8
+40 160 1412 8
+41 160 1434 8
+44 160 1358 8
+45 12884 104212 8
+46 12724 114791 9
+49 12724 104225 8
+50 160 1330 8
+54 160 1291 8
+55 12884 103761 8
+56 12724 119866 9
+59 12724 104040 8
+61 12884 105656 8
+62 12724 114603 9
+65 160 1331 8
+69 160 1288 8
+70 12884 103971 8
+71 12724 117328 9
+72 241 2011 8
+74 12483 102782 8
+75 160 1335 8
+78 160 1277 7
+79 12884 104505 8
+80 12724 117902 9
+83 12724 105313 8
+84 160 1323 8
+88 160 1270 7
+89 12884 106184 8
+90 12724 115454 9
+93 160 1339 8
+fn=zoneamento_serial.py
+95 1 8 8
+114 2 15 7
+fn=executeSimulations:114
+115 1 30 30
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=1 75
+115 1 149 149
+116 11 156 14
+117 10 643 64
+cfl=/usr/lib/python3.6/os.py
+cfn=makedirs:195
+calls=10 195
+117 10 4881 488
+119 170 3272 19
+120 160 3329 20
+122 160 3362 21
+123 160 9916 61
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=160 75
+123 160 46618 291
+124 160 54263 339
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:185
+calls=160 185
+124 160 7818 48
+cfl=/usr/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding:23
+calls=160 23
+124 160 14563 91
+125 160 5062 31
+126 160 2977 18
+127 160 20345 127
+129 160 5786 36
+131 160 21568 134
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=__del__:758
+calls=160 758
+131 160 24726 154
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=call:259
+calls=160 259
+131 160 5893610 36835
+133 160 17448 109
+134 160 7246 45
+fn=zoneamento_serial.py
+136 2 35 17
+fn=filterResults:136
+137 1 103 103
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=1 75
+137 1 336 336
+138 1 24 24
+139 1 21 21
+140 1 20 20
+141 1 21 21
+142 1 23 23
+144 1 20 20
+145 1 19 19
+fn=<listcomp>:147
+147 14 1255 89
+cfl=zoneamento_serial.py
+cfn=<listcomp>:147
+calls=1 147
+147 1 4910 4910
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=isdir:39
+calls=11 39
+147 11 812 73
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=11 75
+147 11 2985 271
+fn=filterResults:136
+148 1 33 33
+150 11 120 10
+151 10 314 31
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=10 75
+151 10 1520 152
+152 10 558 55
+153 10 179 17
+154 10 110 11
+155 10 110 11
+156 10 141 14
+158 170 1946 11
+159 160 1496 9
+160 160 3050 19
+161 160 16077 100
+cfl=/usr/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding:23
+calls=160 23
+161 160 7020 43
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:308
+calls=160 308
+161 160 8929 55
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=160 75
+161 160 23022 143
+162 13044 137432 10
+cfl=/usr/lib/python3.6/codecs.py
+cfn=decode:318
+calls=320 318
+162 320 14555 45
+163 12884 132916 10
+165 10316 97530 9
+166 10316 105270 10
+167 160 1591 9
+168 160 1564 9
+169 160 1493 9
+172 160 4965 31
+cfl=zoneamento_serial.py
+cfn=phenogladAlert:37
+calls=160 37
+172 160 1764916 11030
+174 10 95 9
+fn=<listcomp>:176
+176 21 224 10
+cfl=zoneamento_serial.py
+cfn=<listcomp>:176
+calls=1 176
+176 1 184 184
+fn=filterResults:136
+178 1 171 171
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:185
+calls=1 185
+178 1 30 30
+cfl=/usr/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding:23
+calls=1 23
+178 1 80 80
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=1 75
+178 1 140 140
+179 1 30 30
+180 19 726 38
+181 18 208 11
+fn=zoneamento_serial.py
+183 2 17 8
+fn=countAlerts:183
+184 2 26 13
+185 1 14 14
+186 1 11 11
+187 1 99 99
+cfl=/usr/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding:23
+calls=1 23
+187 1 47 47
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:308
+calls=1 308
+187 1 61 61
+188 19 320 16
+cfl=/usr/lib/python3.6/codecs.py
+cfn=decode:318
+calls=2 318
+188 2 95 47
+189 18 205 11
+190 1 15 15
+191 11 105 9
+192 10 92 9
+193 190 1686 8
+194 180 1603 8
+205 10 87 8
+206 10 91 9
+207 10 90 9
+208 10 90 9
+209 10 89 8
+211 10 98 9
+213 1 110 110
+cfl=/usr/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding:23
+calls=1 23
+213 1 43 43
+cfl=/usr/lib/python3.6/codecs.py
+cfn=__init__:185
+calls=1 185
+213 1 44 44
+214 1 15 15
+215 1 15 15
+217 11 131 11
+218 10 103 10
+219 10 117 11
+fn=zoneamento_serial.py
+221 2 14 7
+fn=<genexpr>:222
+222 5 119 23
+cfl=zoneamento_serial.py
+cfn=<genexpr>:222
+calls=2 222
+222 2 41 20
+fn=runAutomation:221
+223 1 56 56
+cfl=/usr/lib/python3.6/os.py
+cfn=makedirs:195
+calls=1 195
+223 1 261 261
+224 1 16 16
+228 2 21 10
+229 1 36 36
+cfl=/usr/lib/python3.6/os.py
+cfn=makedirs:195
+calls=1 195
+229 1 442 442
+230 1 41 41
+cfl=/usr/lib/python3.6/os.py
+cfn=makedirs:195
+calls=1 195
+230 1 385 385
+231 1 38 38
+cfl=/usr/lib/python3.6/shutil.py
+cfn=copy:227
+calls=1 227
+231 1 2077 2077
+232 1 13 13
+233 1 34 34
+cfl=/usr/lib/python3.6/shutil.py
+cfn=copy:227
+calls=1 227
+233 1 5066 5066
+235 1 39 39
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=1 75
+235 1 154 154
+238 1 38 38
+239 1 194 194
+cfl=zoneamento_serial.py
+cfn=executeSimulations:114
+calls=1 114
+239 1 6147783 6147783
+244 1 83 83
+246 1 113 113
+cfl=zoneamento_serial.py
+cfn=filterResults:136
+calls=1 136
+246 1 2334253 2334253
+249 1 24 24
+256 1 30 30
+257 1 55 55
+cfl=zoneamento_serial.py
+cfn=countAlerts:183
+calls=1 183
+257 1 5524 5524
+fn=zoneamento_serial.py
+262 1 37 37
+cfl=zoneamento_serial.py
+cfn=runAutomation:221
+calls=1 221
+262 1 8496914 8496914
+265 1 23 23
+fl=/usr/lib/python3.6/multiprocessing/__init__.py
+fn=/usr/lib/python3.6/multiprocessing/__init__.py
+15 2 18 9
+16 1 71 71
+cfl=<frozen importlib._bootstrap>
+cfn=parent:416
+calls=1 416
+16 1 20 20
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module:194
+calls=1 194
+16 1 308 308
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+16 1 93127 93127
+22 39 297 7
+fn=<genexpr>:22
+23 73 1137 15
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=reducer:202
+calls=1 202
+23 1 13 13
+cfl=/usr/lib/python3.6/multiprocessing/__init__.py
+cfn=<genexpr>:22
+calls=37 22
+23 37 784 21
+fn=/usr/lib/python3.6/multiprocessing/__init__.py
+24 1 10 10
+30 1 8 8
+31 1 8 8
+37 1 8 8
+38 1 8 8
+fl=/usr/lib/python3.6/shutil.py
+fn=copyfileobj:76
+76 2 10 5
+78 2 17 8
+79 103 1776 17
+80 103 1001 9
+81 2 17 8
+82 101 2592 25
+fn=_samefile:84
+84 2 9 4
+86 2 19 9
+87 2 17 8
+88 2 65 32
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=samefile:94
+calls=2 94
+88 2 87 43
+89 2 22 11
+90 2 20 10
+fn=copyfile:96
+96 2 10 5
+103 2 60 30
+cfl=/usr/lib/python3.6/shutil.py
+cfn=_samefile:84
+calls=2 84
+103 2 241 120
+106 6 70 11
+107 4 44 11
+108 4 76 19
+109 2 23 11
+111 2 19 9
+114 2 22 11
+117 2 18 9
+120 2 65 32
+121 2 87 43
+122 2 115 57
+cfl=/usr/lib/python3.6/shutil.py
+cfn=copyfileobj:76
+calls=2 76
+122 2 5416 2708
+123 2 27 13
+fn=copymode:125
+125 2 13 6
+133 2 20 10
+138 2 21 10
+139 2 19 9
+143 2 39 19
+144 2 50 25
+fn=copy:227
+227 2 10 5
+239 2 66 33
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=isdir:39
+calls=2 39
+239 2 103 51
+240 1 55 55
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=basename:144
+calls=1 144
+240 1 94 94
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join:75
+calls=1 75
+240 1 157 157
+241 2 94 47
+cfl=/usr/lib/python3.6/shutil.py
+cfn=copyfile:96
+calls=2 96
+241 2 6300 3150
+242 2 74 37
+cfl=/usr/lib/python3.6/shutil.py
+cfn=copymode:125
+calls=2 125
+242 2 164 82
+243 2 21 10
+fl=<frozen importlib._bootstrap>
+fn=_new_module:35
+35 8 34 4
+36 8 74 9
+fn=__init__:58
+58 15 66 4
+59 15 141 9
+60 15 126 8
+61 15 119 7
+62 15 120 8
+63 15 118 7
+64 15 120 8
+fn=acquire:78
+78 24 111 4
+84 24 194 8
+85 24 194 8
+86 24 184 7
+87 24 183 7
+88 24 205 8
+89 24 194 8
+90 24 192 8
+91 24 192 8
+92 24 202 8
+101 24 195 8
+fn=release:103
+103 24 111 4
+104 24 198 8
+105 24 212 8
+106 24 192 8
+108 24 189 7
+109 24 198 8
+110 24 197 8
+111 15 118 7
+112 15 129 8
+fn=__init__:143
+143 15 67 4
+144 15 123 8
+145 15 125 8
+fn=__enter__:147
+147 15 66 4
+148 15 413 27
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock:157
+calls=15 157
+148 15 2885 192
+149 15 415 27
+cfl=<frozen importlib._bootstrap>
+cfn=acquire:78
+calls=15 78
+149 15 1282 85
+fn=__exit__:151
+151 15 68 4
+152 15 397 26
+cfl=<frozen importlib._bootstrap>
+cfn=release:103
+calls=15 103
+152 15 1064 70
+fn=_get_module_lock:157
+157 24 113 4
+163 24 205 8
+164 24 196 8
+165 24 190 7
+166 24 231 9
+167 15 136 9
+168 15 131 8
+170 24 203 8
+171 15 139 9
+174 15 399 26
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:58
+calls=15 58
+174 15 812 54
+176 30 228 7
+fn=cb:176
+177 15 124 8
+178 15 118 7
+182 15 126 8
+183 15 120 8
+185 15 140 9
+fn=_get_module_lock:157
+187 15 134 8
+189 24 206 8
+191 24 191 7
+fn=_lock_unlock_module:194
+194 9 43 4
+200 9 234 26
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock:157
+calls=9 157
+200 9 561 62
+201 9 85 9
+202 9 234 26
+cfl=<frozen importlib._bootstrap>
+cfn=acquire:78
+calls=9 78
+202 9 768 85
+208 9 249 27
+cfl=<frozen importlib._bootstrap>
+cfn=release:103
+calls=9 103
+208 9 483 53
+fn=_call_with_frames_removed:211
+211 22 97 4
+219 22 1079 49
+cfl=/usr/lib/python3.6/timeit.py
+cfn=/usr/lib/python3.6/timeit.py
+calls=1 51
+219 1 2356 2356
+cfl=/usr/lib/python3.6/multiprocessing/process.py
+cfn=/usr/lib/python3.6/multiprocessing/process.py
+calls=1 10
+219 1 2920 2920
+cfl=/usr/lib/python3.6/_compat_pickle.py
+cfn=/usr/lib/python3.6/_compat_pickle.py
+calls=1 9
+219 1 6030 6030
+cfl=/usr/lib/python3.6/csv.py
+cfn=/usr/lib/python3.6/csv.py
+calls=1 4
+219 1 8632 8632
+cfl=/usr/lib/python3.6/pickle.py
+cfn=/usr/lib/python3.6/pickle.py
+calls=1 24
+219 1 54279 54279
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=/usr/lib/python3.6/multiprocessing/reduction.py
+calls=1 10
+219 1 67627 67627
+cfl=/usr/lib/python3.6/multiprocessing/context.py
+cfn=/usr/lib/python3.6/multiprocessing/context.py
+calls=1 1
+219 1 86295 86295
+cfl=/usr/lib/python3.6/multiprocessing/__init__.py
+cfn=/usr/lib/python3.6/multiprocessing/__init__.py
+calls=1 15
+219 1 95038 95038
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module:194
+calls=5 194
+219 5 1471 294
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=5 966
+219 5 196901 39380
+fn=_verbose_message:222
+222 159 713 4
+224 159 1337 8
+fn=_requires_builtin_wrapper:232
+232 3 14 4
+233 3 28 9
+236 3 80 26
+cfl=<frozen importlib._bootstrap>
+cfn=is_package:753
+calls=3 753
+236 3 37 12
+fn=__init__:307
+307 12 51 4
+308 12 99 8
+309 12 100 8
+fn=__enter__:311
+311 12 51 4
+315 12 96 8
+316 12 106 8
+fn=__exit__:318
+318 12 58 4
+319 12 108 9
+320 12 99 8
+fn=<genexpr>:321
+321 108 1585 14
+cfl=<frozen importlib._bootstrap>
+cfn=<genexpr>:321
+calls=48 321
+321 48 620 12
+fn=__exit__:318
+327 12 352 29
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message:222
+calls=12 222
+327 12 156 13
+329 12 121 10
+fn=__init__:369
+369 14 65 4
+371 14 120 8
+372 14 116 8
+373 14 116 8
+374 14 115 8
+375 14 114 8
+378 14 114 8
+379 14 115 8
+fn=cached:403
+403 17 73 4
+405 17 133 7
+406 9 71 7
+407 9 70 7
+409 9 248 27
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_cached:361
+calls=9 361
+409 9 2815 312
+410 17 155 9
+fn=parent:416
+416 16 70 4
+419 16 126 7
+420 14 120 8
+422 2 16 8
+fn=has_location:424
+424 12 51 4
+426 12 94 7
+fn=spec_from_loader:433
+433 3 15 5
+435 3 33 11
+446 3 27 9
+447 3 27 9
+448 3 25 8
+449 3 87 29
+cfl=<frozen importlib._bootstrap>
+cfn=_requires_builtin_wrapper:232
+calls=3 232
+449 3 160 53
+456 3 90 30
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:369
+calls=3 369
+456 3 188 62
+fn=_init_module_attrs:504
+504 12 59 4
+508 12 107 8
+514 12 105 8
+515 12 99 8
+516 12 99 8
+525 12 97 8
+526 12 100 8
+530 12 105 8
+531 12 96 8
+532 12 322 26
+cfl=<frozen importlib._bootstrap>
+cfn=parent:416
+calls=12 416
+532 12 248 20
+536 12 118 9
+537 12 102 8
+541 12 132 11
+542 12 104 8
+543 1 8 8
+544 1 9 9
+548 12 314 26
+cfl=<frozen importlib._bootstrap>
+cfn=has_location:424
+calls=12 424
+548 12 145 12
+549 9 105 11
+550 8 67 8
+551 8 71 8
+555 9 90 10
+556 9 239 26
+cfl=<frozen importlib._bootstrap>
+cfn=cached:403
+calls=9 403
+556 9 3401 377
+557 8 79 9
+558 8 211 26
+cfl=<frozen importlib._bootstrap>
+cfn=cached:403
+calls=8 403
+558 8 165 20
+561 12 120 10
+fn=module_from_spec:564
+564 12 52 4
+567 12 97 8
+568 12 102 8
+571 12 318 26
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module:919
+calls=1 919
+571 1 293 293
+cfl=<frozen importlib._bootstrap>
+cfn=create_module:728
+calls=3 728
+571 3 380 126
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module:669
+calls=8 669
+571 8 96 12
+575 12 115 9
+576 8 208 26
+cfl=<frozen importlib._bootstrap>
+cfn=_new_module:35
+calls=8 35
+576 8 108 13
+577 12 335 27
+cfl=<frozen importlib._bootstrap>
+cfn=_init_module_attrs:504
+calls=12 504
+577 12 6931 577
+578 12 115 9
+fn=_load_unlocked:651
+651 12 55 4
+653 12 96 8
+655 12 104 8
+658 12 313 26
+cfl=<frozen importlib._bootstrap>
+cfn=module_from_spec:564
+calls=12 564
+658 12 9155 762
+659 12 553 46
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:307
+calls=12 307
+659 12 252 21
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:311
+calls=12 311
+659 12 253 21
+660 12 117 9
+665 12 571 47
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module:927
+calls=1 927
+665 1 93 93
+cfl=<frozen importlib._bootstrap>
+cfn=exec_module:736
+calls=3 736
+665 3 170 56
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module:672
+calls=8 672
+665 8 334243 41780
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:318
+calls=12 318
+665 12 2482 206
+670 12 123 10
+fn=find_spec:707
+707 13 58 4
+709 13 103 7
+710 3 23 7
+711 10 96 9
+712 3 87 29
+cfl=<frozen importlib._bootstrap>
+cfn=spec_from_loader:433
+calls=3 433
+712 3 656 218
+714 7 56 8
+fn=create_module:728
+728 3 13 4
+731 3 26 8
+734 3 140 46
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=3 211
+734 3 199 66
+fn=exec_module:736
+736 3 13 4
+739 3 82 27
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=3 211
+739 3 75 25
+fn=is_package:753
+753 3 13 4
+757 3 23 7
+fn=find_spec:780
+780 10 44 4
+782 10 87 8
+785 10 81 8
+fn=__enter__:843
+843 35 149 4
+845 35 370 10
+fn=__exit__:847
+847 35 160 4
+849 35 296 8
+fn=_find_spec_legacy:861
+861 2 10 5
+864 2 60 30
+cfl=/usr/lib/python3/dist-packages/pkg_resources/_vendor/six.py
+cfn=find_module:184
+calls=1 184
+864 1 36 36
+cfl=/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py
+cfn=find_module:23
+calls=1 23
+864 1 37 37
+865 2 20 10
+866 2 16 8
+fn=_find_spec:870
+870 13 75 5
+872 13 121 9
+873 13 117 9
+878 13 116 8
+884 13 120 9
+885 36 324 9
+886 35 954 27
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:843
+calls=35 843
+886 35 519 14
+887 35 363 10
+888 35 321 9
+889 2 28 14
+890 2 56 28
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec_legacy:861
+calls=2 861
+890 2 181 90
+891 2 22 11
+892 2 56 28
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:847
+calls=2 847
+892 2 25 12
+894 33 1507 45
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:780
+calls=10 780
+894 10 213 21
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1149
+calls=10 1149
+894 10 40969 4096
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:707
+calls=13 707
+894 13 1082 83
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:847
+calls=33 847
+894 33 431 13
+895 33 338 10
+897 12 111 9
+912 12 102 8
+914 1 8 8
+fn=_find_and_load_unlocked:936
+936 15 82 5
+937 15 133 8
+938 15 145 9
+939 15 135 9
+940 5 46 9
+941 2 61 30
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=2 211
+941 2 22672 11336
+943 3 28 9
+945 3 36 12
+946 3 35 11
+947 3 27 9
+951 13 375 28
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec:870
+calls=13 870
+951 13 48172 3705
+952 13 135 10
+953 1 16 16
+955 12 329 27
+cfl=<frozen importlib._bootstrap>
+cfn=_load_unlocked:651
+calls=12 651
+955 12 348587 29048
+956 12 124 10
+958 3 27 9
+959 3 33 11
+960 12 104 8
+fn=_find_and_load:966
+966 15 72 4
+968 15 710 47
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:143
+calls=15 143
+968 15 315 21
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:147
+calls=15 147
+968 15 5063 337
+969 15 164 10
+970 15 127 8
+971 15 1039 69
+cfl=<frozen importlib._bootstrap>
+cfn=cb:176
+calls=15 176
+971 15 707 47
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:151
+calls=15 151
+971 15 1529 101
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load_unlocked:936
+calls=15 936
+971 15 421312 28087
+fn=_handle_fromlist:997
+997 20 107 5
+1007 20 209 10
+1008 10 95 9
+1009 5 45 9
+1016 5 43 8
+1020 5 54 10
+1021 4 46 11
+1022 4 36 9
+1023 4 114 28
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed:211
+calls=4 211
+1023 4 175995 43998
+fl=/usr/lib/python3.6/genericpath.py
+fn=exists:16
+16 12 87 7
+18 12 185 15
+19 12 369 30
+22 12 168 14
+fn=isdir:39
+39 13 107 8
+41 13 190 14
+42 13 363 27
+43 1 12 12
+44 1 10 10
+45 12 232 19
+fn=samefile:94
+94 2 11 5
+96 2 30 15
+97 2 45 22
+fl=/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py
+fn=find_module:23
+23 1 5 5
+28 1 14 14
+29 1 9 9
+30 1 8 8
+fl=/usr/lib/python3.6/multiprocessing/reduction.py
+fn=/usr/lib/python3.6/multiprocessing/reduction.py
+10 2 39 19
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+10 1 26 26
+11 1 11 11
+12 1 9 9
+13 1 9 9
+14 1 8 8
+15 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+15 1 62567 62567
+16 1 11 11
+17 1 10 10
+19 1 74 74
+cfl=<frozen importlib._bootstrap>
+cfn=parent:416
+calls=1 416
+19 1 21 21
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module:194
+calls=1 194
+19 1 293 293
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+19 1 758 758
+21 1 10 10
+24 1 8 8
+25 1 10 10
+26 1 9 9
+27 1 10 10
+fn=ForkingPickler:33
+33 3 72 24
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=ForkingPickler:33
+calls=1 33
+33 1 87 87
+34 1 8 8
+35 1 8 8
+36 1 9 9
+38 1 9 9
+43 6 32 5
+fn=register:43
+46 5 40 8
+fn=ForkingPickler:33
+48 1 8 8
+49 1 9 9
+54 1 10 10
+fn=/usr/lib/python3.6/multiprocessing/reduction.py
+56 1 12 12
+58 1 8 8
+66 1 8 8
+135 1 9 9
+136 1 37 37
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+136 1 2068 2068
+139 1 10 10
+141 1 8 8
+149 1 8 8
+174 1 8 8
+179 1 8 8
+184 1 8 8
+199 1 8 8
+fn=_C:204
+204 3 60 20
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=_C:204
+calls=1 204
+204 1 20 20
+205 1 8 8
+fn=/usr/lib/python3.6/multiprocessing/reduction.py
+207 1 31 31
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=register:43
+calls=1 43
+207 1 13 13
+210 1 10 10
+212 1 27 27
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=register:43
+calls=1 43
+212 1 12 12
+213 1 29 29
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=register:43
+calls=1 43
+213 1 12 12
+216 1 10 10
+218 1 9 9
+220 1 26 26
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=register:43
+calls=1 43
+220 1 12 12
+226 1 10 10
+235 1 8 8
+238 1 8 8
+241 1 26 26
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=register:43
+calls=1 43
+241 1 12 12
+fn=AbstractReducer:244
+244 3 68 22
+cfl=/usr/lib/python3.6/multiprocessing/reduction.py
+cfn=AbstractReducer:244
+calls=1 244
+244 1 144 144
+cfl=/usr/lib/python3.6/abc.py
+cfn=__new__:132
+calls=1 132
+244 1 819 819
+247 1 7 7
+248 1 8 8
+249 1 7 7
+250 1 8 8
+251 1 8 8
+252 1 7 7
+254 1 8 8
+259 1 8 8
+260 1 7 7
+261 1 9 9
+263 1 8 8
+264 1 8 8
+265 1 8 8
+266 1 8 8
+267 1 8 8
+269 1 8 8
+fl=/usr/lib/python3.6/timeit.py
+fn=/usr/lib/python3.6/timeit.py
+51 2 16 8
+53 1 30 30
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+53 1 2022 2022
+54 1 12 12
+55 1 10 10
+56 1 9 9
+58 1 8 8
+60 1 8 8
+61 1 8 8
+62 1 7 7
+63 1 8 8
+65 1 8 8
+78 1 8 8
+80 1 8 8
+fn=Timer:84
+84 3 72 24
+cfl=/usr/lib/python3.6/timeit.py
+cfn=Timer:84
+calls=1 84
+84 1 71 71
+100 1 7 7
+102 1 8 8
+103 1 8 8
+137 1 8 8
+164 1 8 8
+184 1 8 8
+210 1 8 8
+fn=/usr/lib/python3.6/timeit.py
+230 1 11 11
+231 1 10 10
+235 1 8 8
+236 1 8 8
+240 1 8 8
+361 1 8 8
+fl=/usr/lib/python3.6/subprocess.py
+fn=_cleanup:203
+203 160 1435 8
+204 160 3415 21
+fn=call:259
+259 160 1534 9
+267 160 21683 135
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=__enter__:743
+calls=160 743
+267 160 4944 30
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=__init__:588
+calls=160 588
+267 160 572438 3577
+268 160 2595 16
+269 160 16404 102
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=__exit__:746
+calls=160 746
+269 160 26662 166
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=wait:1414
+calls=160 1414
+269 160 5247347 32795
+fn=__init__:588
+588 160 2355 14
+596 160 10185 63
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_cleanup:203
+calls=160 203
+596 160 4851 30
+602 160 4894 30
+604 160 3485 21
+605 160 3231 20
+606 160 3198 19
+608 160 3719 23
+611 160 3218 20
+628 160 3238 20
+629 160 3149 19
+630 160 3160 19
+633 160 3166 19
+636 160 3172 19
+640 160 3223 20
+641 160 3203 20
+642 160 3177 19
+643 160 3136 19
+644 160 3173 19
+645 160 3145 19
+646 160 3191 19
+647 160 3170 19
+648 160 3174 19
+667 160 9475 59
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_get_handles:1154
+calls=160 1154
+667 160 40467 252
+673 160 3655 22
+681 160 3082 19
+683 160 3074 19
+685 160 2938 18
+686 160 2921 18
+692 160 2905 18
+697 160 2930 18
+703 160 3028 18
+704 160 2913 18
+705 160 2879 17
+706 160 2906 18
+707 160 2853 17
+708 160 2874 17
+709 160 15151 94
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_execute_child:1208
+calls=160 1208
+709 160 384753 2404
+fn=__enter__:743
+743 160 2325 14
+744 160 2619 16
+fn=__exit__:746
+746 160 1530 9
+747 160 2568 16
+749 160 2572 16
+751 160 2391 14
+752 160 2476 15
+756 160 8279 51
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=wait:1414
+calls=160 1414
+756 160 6843 42
+fn=__del__:758
+758 160 1452 9
+759 160 2530 15
+762 160 2375 14
+768 160 8650 54
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_internal_poll:1366
+calls=160 1366
+768 160 6853 42
+769 160 2863 17
+fn=_get_handles:1154
+1154 160 1681 10
+1158 160 2910 18
+1159 160 2618 16
+1160 160 2535 15
+1162 160 2490 15
+1164 160 2612 16
+1166 160 2492 15
+1168 160 3178 19
+1172 160 2768 17
+1174 160 2552 15
+1175 160 2412 15
+1186 160 2416 15
+1187 160 2424 15
+1203 160 2441 15
+1204 160 2412 15
+1205 160 2519 15
+fn=_execute_child:1208
+1208 160 2874 17
+1217 160 4063 25
+1218 160 3843 24
+1222 160 3759 23
+1227 160 3773 23
+1228 160 3817 23
+1229 160 3648 22
+1234 160 6346 39
+1236 160 4062 25
+1237 160 3700 23
+1240 160 3746 23
+1242 160 3700 23
+1243 160 3609 22
+1249 160 3577 22
+1257 160 3561 22
+1258 160 11668 72
+cfl=/usr/lib/python3.6/os.py
+cfn=fsencode:794
+calls=160 794
+1258 160 10235 63
+1259 160 10595 66
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=dirname:154
+calls=160 154
+1259 160 34451 215
+1260 160 4205 26
+1266 160 4484 28
+1267 160 4076 25
+1268 160 4270 26
+1269 160 3525 22
+1270 160 6084 38
+1271 160 3717 23
+1272 160 3484 21
+1273 160 3430 21
+1274 160 3427 21
+1275 160 112429 702
+1276 160 29402 183
+1279 160 6122 38
+1282 160 4150 25
+1283 160 2565 16
+1285 160 2307 14
+1287 160 2335 14
+1289 160 2308 14
+1292 160 2355 14
+1296 160 2938 18
+1297 160 2381 14
+1298 160 31364 196
+1299 160 5621 35
+1300 160 2991 18
+1301 160 2541 15
+1304 160 4126 25
+1306 160 3069 19
+fn=_handle_exitstatus:1348
+1348 160 1906 11
+1355 160 2982 18
+1357 160 2639 16
+1358 160 2926 18
+fn=_internal_poll:1366
+1366 160 1572 9
+1375 160 2671 16
+1398 160 2610 16
+fn=_try_wait:1401
+1401 160 1468 9
+1403 160 2336 14
+1404 160 5174213 32338
+1411 160 11211 70
+fn=wait:1414
+1414 320 2940 9
+1417 320 5176 16
+1418 160 2635 16
+1420 160 2043 12
+1425 160 2006 12
+1431 160 1911 11
+1453 320 5253 16
+1454 160 3139 19
+1455 160 2346 14
+1457 160 10320 64
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_try_wait:1401
+calls=160 1401
+1457 160 5189229 32432
+1461 160 3673 22
+1462 160 10389 64
+cfl=/usr/lib/python3.6/subprocess.py
+cfn=_handle_exitstatus:1348
+calls=160 1348
+1462 160 10455 65
+1463 160 2667 16
+fl=/usr/lib/python3.6/posixpath.py
+fn=_get_sep:41
+41 521 3624 6
+42 521 8180 15
+43 160 2742 17
+45 361 4218 11
+fn=isabs:64
+64 1 4 4
+66 1 8 8
+67 1 27 27
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep:41
+calls=1 41
+67 1 21 21
+68 1 11 11
+fn=join:75
+75 346 2671 7
+80 346 5794 16
+81 346 14163 40
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep:41
+calls=346 41
+81 346 11725 33
+82 346 4989 14
+83 346 4109 11
+84 346 4140 11
+86 692 9516 13
+87 346 5064 14
+89 346 4652 13
+90 3 35 11
+92 343 4263 12
+96 346 3962 11
+fn=split:104
+104 13 95 7
+107 13 234 18
+108 13 568 43
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep:41
+calls=13 41
+108 13 475 36
+109 13 265 20
+110 13 223 17
+111 13 222 17
+112 12 186 15
+113 13 183 14
+fn=basename:144
+144 1 5 5
+146 1 12 12
+147 1 30 30
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep:41
+calls=1 41
+147 1 22 22
+148 1 12 12
+149 1 10 10
+fn=dirname:154
+154 160 1632 10
+156 160 2945 18
+157 160 8274 51
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep:41
+calls=160 41
+157 160 6520 40
+158 160 3962 24
+159 160 2918 18
+160 160 2946 18
+161 160 2813 17
+162 160 2438 15
+fn=normpath:331
+331 1 5 5
+333 1 10 10
+334 1 10 10
+340 1 9 9
+341 1 9 9
+342 1 9 9
+343 1 9 9
+344 1 9 9
+346 1 10 10
+349 1 9 9
+350 1 10 10
+352 1 11 11
+353 1 10 10
+354 8 67 8
+355 7 58 8
+356 1 8 8
+357 6 47 7
+359 6 50 8
+362 1 8 8
+363 1 9 9
+364 1 8 8
+365 1 9 9
+366 1 9 9
+fn=abspath:369
+369 1 5 5
+371 1 12 12
+372 1 28 28
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=isabs:64
+calls=1 64
+372 1 74 74
+378 1 32 32
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath:331
+calls=1 331
+378 1 401 401
+fl=/usr/lib/python3.6/csv.py
+fn=/usr/lib/python3.6/csv.py
+4 2 16 8
+6 1 9 9
+7 1 54 54
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+7 1 25 25
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load:966
+calls=1 966
+7 1 7263 7263
+12 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+12 1 24 24
+14 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+14 1 67 67
+15 1 31 31
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist:997
+calls=1 997
+15 1 25 25
+17 1 10 10
+18 1 8 8
+19 1 8 8
+20 1 8 8
+21 1 7 7
+22 1 8 8
+fn=Dialect:24
+24 3 139 46
+cfl=/usr/lib/python3.6/csv.py
+cfn=Dialect:24
+calls=1 24
+24 1 111 111
+31 1 7 7
+32 1 8 8
+33 1 8 8
+35 1 8 8
+36 1 8 8
+37 1 8 8
+38 1 8 8
+39 1 7 7
+40 1 9 9
+41 1 9 9
+43 1 8 8
+48 1 8 8
+fn=excel:55
+55 3 68 22
+cfl=/usr/lib/python3.6/csv.py
+cfn=excel:55
+calls=1 55
+55 1 69 69
+56 1 7 7
+57 1 8 8
+58 1 7 7
+59 1 8 8
+60 1 8 8
+61 1 8 8
+62 1 8 8
+fn=/usr/lib/python3.6/csv.py
+63 1 20 20
+fn=excel_tab:65
+65 3 64 21
+cfl=/usr/lib/python3.6/csv.py
+cfn=excel_tab:65
+calls=1 65
+65 1 29 29
+66 1 8 8
+67 1 8 8
+fn=/usr/lib/python3.6/csv.py
+68 1 17 17
+fn=unix_dialect:70
+70 3 61 20
+cfl=/usr/lib/python3.6/csv.py
+cfn=unix_dialect:70
+calls=1 70
+70 1 99 99
+71 1 16 16
+72 1 15 15
+73 1 10 10
+74 1 9 9
+75 1 18 18
+76 1 8 8
+77 1 8 8
+fn=/usr/lib/python3.6/csv.py
+78 1 17 17
+fn=DictReader:81
+81 3 62 20
+cfl=/usr/lib/python3.6/csv.py
+cfn=DictReader:81
+calls=1 81
+81 1 56 56
+83 1 8 8
+91 1 8 8
+94 1 9 9
+104 1 10 10
+108 1 8 8
+fn=DictWriter:131
+131 3 63 21
+cfl=/usr/lib/python3.6/csv.py
+cfn=DictWriter:131
+calls=1 131
+131 1 54 54
+133 1 7 7
+142 1 8 8
+146 1 8 8
+154 1 8 8
+157 1 8 8
+fn=/usr/lib/python3.6/csv.py
+161 1 11 11
+162 1 8 8
+fn=Sniffer:166
+166 3 68 22
+cfl=/usr/lib/python3.6/csv.py
+cfn=Sniffer:166
+calls=1 166
+166 1 61 61
+170 1 7 7
+171 1 8 8
+176 1 8 8
+205 1 8 8
+281 1 8 8
+384 1 8 8
+fl=/usr/lib/python3.6/abc.py
+fn=__new__:132
+132 1 5 5
+133 1 36 36
+135 20 160 8
+fn=<setcomp>:135
+136 18 161 8
+cfl=/usr/lib/python3.6/abc.py
+cfn=<setcomp>:135
+calls=1 135
+136 1 431 431
+137 17 150 8
+fn=__new__:132
+138 1 10 10
+143 1 12 12
+145 1 30 30
+cfl=/usr/lib/python3.6/_weakrefset.py
+cfn=__init__:36
+calls=1 36
+145 1 56 56
+146 1 31 31
+cfl=/usr/lib/python3.6/_weakrefset.py
+cfn=__init__:36
+calls=1 36
+146 1 54 54
+147 1 30 30
+cfl=/usr/lib/python3.6/_weakrefset.py
+cfn=__init__:36
+calls=1 36
+147 1 55 55
+148 1 11 11
+149 1 9 9
