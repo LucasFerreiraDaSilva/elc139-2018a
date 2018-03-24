@@ -14,8 +14,8 @@ Disciplina: ELC139 - Programação Paralela
     - [Programa escolhido](#p2-programa)
     - [Profiles utilizados](#p2-profiles)
     - [Resultados](#p2-resultados)
-        - [Resultados com o profile Cprofile](#p2-res-cprofile)
-        - [Resultados com o profile pprofile](#p2-res-pprofile)
+        - [Resultados com o profile <i>Cprofile</i>](#p2-res-cprofile)
+        - [Resultados com o profile <i>pprofile</i>](#p2-res-pprofile)
         - [Conclusões sobre os profiles](#p2-conc-profile)
         - [Conclusões sobre o perfil de execução do script](#p2-conc-script)
 - [Referências](#ref)
@@ -101,10 +101,10 @@ A escolha foi motivada pelo tempo de execução da versão serial do programa qu
 
 ## Profiles utilizados
 
-Foram utilizados 2 profiles para Python, o Cprofile (nativo da linguagem) e o pprofile (desenvolvido como uma alternativa ao antigo line_profiler).
+Foram utilizados 2 profiles para Python, o <i>Cprofile</i> (nativo da linguagem) e o <i>pprofile</i> (desenvolvido como uma alternativa ao antigo line_profiler).
 
 
-As execuções utilizando tanto o Cprofile quanto o pprofile foram configuradas de forma a se ter uma amostra de 3 tipos de execução característicos do script Python, são elas:
+As execuções utilizando tanto o <i>Cprofile</i> quanto o <i>pprofile</i> foram configuradas de forma a se ter uma amostra de 3 tipos de execução característicos do script Python, são elas:
 
 #### 1) Poucos dias e poucos anos:
 - Número de dias: 10
@@ -125,8 +125,8 @@ Neste tópico são apresentados os resultados obtidos com a execução de ambos 
 
 <a name="p2-res-cprofile"></a>
 
-### Resultados com o profile Cprofile
-Executando o script com o profile Cprofile obeteve-se os seguintes grafos do perfil de execução:
+### Resultados com o profile <i>Cprofile</i>
+Executando o script com o profile <i>Cprofile</i> obeteve-se os seguintes grafos do perfil de execução:
 
 Configuração 1                 | Configuração 2                 | Configuração 3
 ------------------------------ | ------------------------------ | ------------------------------
@@ -134,8 +134,8 @@ Configuração 1                 | Configuração 2                 | Configura�
 
 <a name="p2-res-pprofile"></a>
 
-### Resultados com o profile pprofile
-Executando o script com o profile Cprofile obteve-se os seguintes grafos do perfil de execução:
+### Resultados com o profile <i>pprofile</i>
+Executando o script com o profile <i>pprofile</i> obteve-se os seguintes grafos do perfil de execução:
 
 Configuração 1                 | Configuração 2                 | Configuração 3
 ------------------------------ | ------------------------------ | ------------------------------
@@ -146,7 +146,7 @@ Configuração 1                 | Configuração 2                 | Configura�
 
 ## Conclusões sobre os profiles
 
-Ambos os profiles escolhidos cumpriram muito bem sua tarefa, sendo que os dois geraram os resultados de forma clara, não foram muito intrusivos durante a execução do script e ainda apresentaram dados coerentes ao final das execuções. Contudo, o profile Cprofile resultou em informações de perfil de execução mais detalhadas, explorando de maneira mais aprofundada recursos como chamadas de sistema e E/S durante a execução. O pprofile talvez não tenha apresentado dados muito aprofundados para esse último quesito justamente por sua implementação que busca ser um profile Python mais "puro" e, por isso, acaba sendo afetado por algumas abstrações do sistema realizadas pelo interpretador Python.
+Ambos os profiles escolhidos cumpriram muito bem sua tarefa, sendo que os dois geraram os resultados de forma clara, não foram muito intrusivos durante a execução do script e ainda apresentaram dados coerentes ao final das execuções. Contudo, o profile <i>Cprofile</i> resultou em informações de perfil de execução mais detalhadas, explorando de maneira mais aprofundada recursos como chamadas de sistema e E/S durante a execução. O <i>pprofile</i> talvez não tenha apresentado dados muito aprofundados para esse último quesito justamente por sua implementação que busca ser um profile Python mais "puro" e, por isso, acaba sendo afetado por algumas abstrações do sistema realizadas pelo interpretador Python.
 
 <a name="p2-conc-script"></a>
 
@@ -169,6 +169,6 @@ Como fica evidente nos grafos de perfil de execução, é possível notar que de
 - Script para realização do zoneamento para a cultura do gladíolo. https://github.com/LucasFerreiraDaSilva/ScriptsPhenoGlad
 - The Python Profilers. https://docs.python.org/3.7/library/profile.html
 - Profiling Python using cProfile: a concrete case. https://julien.danjou.info/guide-to-python-profiling-cprofile-concrete-case-carbonara/
-- Repositório pprofile. https://github.com/vpelletier/pprofile
+- Repositório <i>pprofile</i>. https://github.com/vpelletier/pprofile
 - line_profiler and kernprof. https://github.com/rkern/line_profiler
-- pprofile package. https://pypi.python.org/pypi/pprofile    
+- <i>pprofile</i> package. https://pypi.python.org/pypi/pprofile    
