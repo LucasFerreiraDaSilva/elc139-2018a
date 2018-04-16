@@ -10,9 +10,9 @@ Sala: 363, CT
  1. [TOP500 & me: comparativo de arquiteturas paralelas](trabalhos/t1) (entrega até terça, 13/03, 9h)
  2. [Experiências com profilers](trabalhos/t2) (entrega até quarta, 21/03, 23h59)
  3. [Programação paralela multithread](trabalhos/t3) (entrega até segunda, 09/04, 23h59)
- <!--
- 4. [Bug em OpenMP](trabalhos/t4) (entrega até segunda, 10/04, 23h59)
- 5. [Aplicação do método de Monte Carlo em OpenMP](trabalhos/t5) (entrega até quarta, 19/04, 23h59 - apresentação quinta, 20/04)
+ 4. [Scheduling com OpenMP](trabalhos/t4) (entrega até quarta, 18/04, 23h59)
+ 5. [Aplicação do método de Monte Carlo em OpenMP](trabalhos/t5) (entrega até segunda, 23/04, 23h59 - apresentação/discussão terça, 24/04)
+<!--
  6. [Experiências com MPI](trabalhos/t6) (entrega até segunda, 02/05, 23h59)
  7. [Algoritmo de Dijkstra com OpenMPI](https://github.com/fpuntel/ELC139) (até 17/05, 23h59)
 
