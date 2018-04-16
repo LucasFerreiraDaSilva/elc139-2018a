@@ -225,15 +225,15 @@ A implementação da versão paralela do produto escalar utilizando OpenMP baseo
     }
 ```
 
-Analisando a função dot_product percebe-se que a variável dot é zerada a cada iteração do laço mais externo, o que faz com que a mesma seja reescrita a cada repetição (repeat) do cálculo do produto escalar, sendo que o valor resultante será sempre o valor de dot calculado na última iteração do laço mais externo. Essa pequena análise do comportamento do cálculo possibilitou a escolha da estratégia de paralelismo com OpenMP, sendo então utilizada a seguinte combinação de diretivas:
+Analisando a função dot_product percebe-se que a variável dot é zerada a cada iteração do laço mais externo, o que faz com que a mesma seja reescrita a cada repetição (repeat) do cálculo do produto escalar, sendo que o valor resultante será sempre o valor de dot calculado na última iteração do laço mais externo. Essa pequena análise do comportamento do cálculo possibilitou a escolha da estratégia de paralelismo com OpenMP, sendo então utilizada a seguinte combinação de diretivas e cláusulas:
 
 ``` c
     #pragma omp parallel for lastprivate(dot)
 ```
 
-Embora comumente pouco utilizada, a diretiva lastprivate() é perfeita para o problema em questão, pois ao utilizar-se a mesma combinada com a paralelização do laço, faz com que para cada thread se tenha uma cópia da variável dot, porém o OpemMP automaticamente encarrega-se de conservar somente o resultado de dot para a última thread que possui uma cópia de dot. Além disso essa implementação evita a criação de regiões críticas desnecessárias em cada iteração do laço, já que cada cópia de dot será privada de cada thread, melhorando ainda mais o desempenho.
+Embora comumente pouco utilizada, a cláusula lastprivate() é perfeita para o problema em questão, pois ao utilizar-se a mesma combinada com a paralelização do laço, faz com que para cada thread se tenha uma cópia da variável dot, porém o OpemMP automaticamente encarrega-se de conservar somente o resultado de dot para a última thread que possui uma cópia de dot. Além disso essa implementação evita a criação de regiões críticas desnecessárias em cada iteração do laço, já que cada cópia de dot será privada de cada thread, melhorando ainda mais o desempenho.
 
-Abaixo a função dot_product paralelizada com diretivas OpenMP:
+Abaixo a função dot_product paralelizada com diretivas e cláusulas OpenMP:
 
 ``` c
     double dot;
@@ -255,7 +255,13 @@ Abaixo a função dot_product paralelizada com diretivas OpenMP:
 
 ## Avaliação de desempenho
 
-Faltou terminar os gráficos, porém, a implementação utilizando a diretiva lastprivate() melhorou consideravelmente o desempenho em relação a implementação com pthreads.
+A implementação utilizando a cláusula lastprivate() melhorou consideravelmente o desempenho em relação a implementação com pthreads. Porém, a implementação com OpenMP não pode ser equiparada com a implementação utilizando Pthreads, pois a cláusula lastprivate() reduz a complexidade do cálculo drasticamente, já que evita um reprocessamento desnecessário do cálculo do dot, o que com Pthreads continua sendo realizado. Uma solução com OpenMP mais equiparável com a implementação utilizando Pthreads poderia ser baseada no uso da cláusula reduce, porém com o custo de se ter que monitorar as regiões críticas. Abaixo o gráfico ilustrando um comparativo de speedup das implementações.  
+
+<div align="center">
+
+![](graficos/speedupOpenMP.png)
+
+</div>  
 
 <a name="ref"></a>
 
