@@ -17,7 +17,7 @@ Os links abaixo são para as implementações 1 e 2 do firesim com OpenMP:
 
 Os slides da apresentação podem ser encontrados no link abaixo:
 
-[T5 - Computação Paralela](/Slides/T5-ComputaçãoParalela.pdf)
+[T5 - Computação Paralela](Slides/T5-ComputaçãoParalela.pdf)
 
 # Referências
 - OpenMP topic: Loop parallelism. http://pages.tacc.utexas.edu/~eijkhout/pcse/html/omp-loop.html
