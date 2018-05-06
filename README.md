@@ -12,6 +12,7 @@ Sala: 363, CT
  3. [Programação paralela multithread](trabalhos/t3) (entrega até segunda, 09/04, 23h59)
  4. [Scheduling com OpenMP](trabalhos/t4) (entrega até quarta, 18/04, 23h59)
  5. [Aplicação do método de Monte Carlo em OpenMP](trabalhos/t5) (entrega até segunda, 23/04, 23h59 - apresentação/discussão terça, 24/04)
+ 6. [N-Rainhas com OpenMP](trabalhos/t6) (entrega até segunda, 07/05, 23h59 - apresentação/discussão terça, 08/05)
 <!--
  6. [Experiências com MPI](trabalhos/t6) (entrega até segunda, 02/05, 23h59)
  7. [Algoritmo de Dijkstra com OpenMPI](https://github.com/fpuntel/ELC139) (até 17/05, 23h59)
