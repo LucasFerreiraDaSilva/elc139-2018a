@@ -7,6 +7,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <omp.h>
 
 #include "nqueens.h"
 
@@ -55,6 +56,7 @@ int ok(int queen_number, int row_position, int* position) {
 
 int put_queen(int size, int queen_number, int* position) {
 	int i;
+	
 	for(i=position[queen_number]+1; i<size; i++) {
 		if(ok(queen_number, i, position)) {
 			position[queen_number] = i;
@@ -68,13 +70,13 @@ int put_queen(int size, int queen_number, int* position) {
 
 void nqueens(int size, int *solutions) {
 	int i, count;
-	int* position;
 	
 	count = 0;
 	
+	#pragma omp parallel for private(i) schedule(static)
 	for(i=0; i<size; i++) {
 		int j;
-		position = (int *) malloc(size * sizeof(int));
+		int* position = (int *) malloc(size * sizeof(int));
 		position[0] = i;
 		
 		for(j = 1; j < size; j++)
@@ -86,6 +88,7 @@ void nqueens(int size, int *solutions) {
 				queen_number++;
 			
 				if(queen_number == size) {
+					#pragma omp atomic
 					count += 1;
 					
 					position[queen_number-1] = -1;
@@ -96,7 +99,7 @@ void nqueens(int size, int *solutions) {
 			}
 		}
 	}
-	
+
 	*solutions = count;
 }
 
