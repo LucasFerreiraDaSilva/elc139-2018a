@@ -90,7 +90,7 @@ int main(int argc, char **argv)
     }
 
     init_vectors(a, b, wsize);
-
+]
     start_time = wtime();
     dot = dot_product(a, b, wsize, repeat);
     end_time = wtime();

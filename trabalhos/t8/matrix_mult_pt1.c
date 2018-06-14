@@ -58,26 +58,36 @@ int main(int argc, char *argv[])
         fill_matrix(B);
     }
 
-    if (myrank == 0)
-    {
-        for (int i = 1; i < nproc; ++i)
-        {
-            int lFrom = i * SIZE / nproc;
-            int lTo = (i + 1) * SIZE / nproc;
-            printf("slice log: %d, %d\n", lFrom, lTo);
-            // Broadcast B to other process
-            MPI_Send(B, SIZE * SIZE, MPI_INT, i, tag_A, MPI_COMM_WORLD);
-            // Send "Total of lines" / "Number of process" lines to other process
-            MPI_Send(A[lFrom], (lTo - lFrom) * SIZE, MPI_INT, i, tag_B, MPI_COMM_WORLD);
-        }
-    }
-    else
-    {
-        MPI_Recv(B, SIZE * SIZE, MPI_INT, MPI_ANY_SOURCE, tag_A, MPI_COMM_WORLD, &status);
-        MPI_Recv(A[from], (to - from) * SIZE, MPI_INT, MPI_ANY_SOURCE, tag_B, MPI_COMM_WORLD, &status);
-    }
+    /*
+        MPI_Bcast(
+            void* data,
+            int count,
+            MPI_Datatype datatype,
+            int root,
+            MPI_Comm communicator
+        )
+    */
+
+    // Broadcast B to other process
+    MPI_Bcast(B, SIZE * SIZE, MPI_INT, 0, MPI_COMM_WORLD);
+
+    /*
+        MPI_Scatter(
+            void* send_data,
+            int send_count,
+            MPI_Datatype send_datatype,
+            void* recv_data,
+            int recv_count,
+            MPI_Datatype recv_datatype,
+            int root,
+            MPI_Comm communicator
+        )
+    */
+
+    MPI_Scatter(A, SIZE * SIZE / nproc, MPI_INT, &A[from], SIZE * SIZE / nproc, MPI_INT, 0, MPI_COMM_WORLD);
 
     printf("computing slice %d (from row %d to %d)\n", myrank, from, to - 1);
+
     for (i = from; i < to; i++)
     {
         for (j = 0; j < SIZE; j++)
