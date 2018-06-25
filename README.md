@@ -15,6 +15,7 @@ Sala: 363, CT
  6. [N-Rainhas com OpenMP](trabalhos/t6) (entrega até segunda, 07/05, 23h59 - apresentação/discussão terça, 08/05)
  7. [Primeiros passos com MPI](trabalhos/t7) (entrega até segunda, 04/06, 23h59 - discussão terça, 05/06)
  8. [Comunicação coletiva em MPI](trabalhos/t8) (entrega até quarta, 13/06, 23h59 - discussão quinta, 14/06)
+ 9. [Resolvendo um problema da maratona de programação paralela](trabalhos/t9) (entrega até segunda, 25/06, 23h59 - apresentação terça, 26/06)
 <!--
  6. [Experiências com MPI](trabalhos/t6) (entrega até segunda, 02/05, 23h59)
  7. [Algoritmo de Dijkstra com OpenMPI](https://github.com/fpuntel/ELC139) (até 17/05, 23h59)
